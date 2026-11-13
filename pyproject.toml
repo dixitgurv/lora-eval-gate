@@ -1,0 +1,52 @@
+[project]
+name = "lora-eval-gate"
+version = "0.1.0"
+description = "LoRA fine-tuning for text-to-SQL with an execution-based evaluation harness and a statistical promotion gate."
+readme = "README.md"
+authors = [
+    { name = "Gaurav Dixit" }
+]
+requires-python = ">=3.12"
+license = "MIT"
+keywords = ["llm", "lora", "fine-tuning", "evaluation", "text-to-sql"]
+dependencies = [
+    "pyyaml>=6.0.3",
+    "sqlglot>=30.31.0",
+]
+
+[project.optional-dependencies]
+# Scoring and the gate need only the two packages above, so CI stays fast.
+# Training and generation need the ML stack.
+train = [
+    "accelerate>=1.15.0",
+    "datasets>=5.2.0",
+    "peft>=0.21.3",
+    "torch>=2.15.0",
+    "transformers>=5.23.0",
+]
+
+[project.urls]
+Repository = "https://github.com/dixitgurv/lora-eval-gate"
+
+
+[project.scripts]
+evalgate = "evalgate.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.13.8,<0.14.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "evalgate"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "ruff>=0.17.5",
+]
+
+[tool.ruff]
+line-length = 120
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
