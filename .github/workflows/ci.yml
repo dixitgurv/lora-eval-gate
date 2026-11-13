@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+      # Core install only: scoring and the gate don't need torch.
+      - run: uv sync --locked --no-default-groups --group dev
+      - run: uv run ruff check
+      - run: uv run pytest -v
+
+  eval-gate:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+      - run: uv sync --locked --no-default-groups
+      # Re-score the committed predictions so the reports can't drift from the harness,
+      # then gate. A failing gate fails the build.
+      - name: Score baseline and candidate
+        run: |
+          uv run evalgate score runs/base.preds.jsonl --model "Qwen2.5-0.5B-Instruct (base)" --out base.report.json
+          uv run evalgate score runs/lora.preds.jsonl --model "Qwen2.5-0.5B-Instruct + LoRA" --out lora.report.json
+      - name: Gate
+        run: uv run evalgate gate base.report.json lora.report.json --summary "$GITHUB_STEP_SUMMARY"

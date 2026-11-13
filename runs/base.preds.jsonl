@@ -1,0 +1,400 @@
+{"id": "sc-33658", "prediction": "SELECT type FROM table_1973842_1 WHERE location = 'Macon, Georgia'", "raw": "SELECT type FROM table_1973842_1 WHERE location = 'Macon, Georgia'"}
+{"id": "sc-41391", "prediction": "SELECT constructor FROM table_name_10 WHERE driver = 'david coulthard'", "raw": "SELECT constructor FROM table_name_10 WHERE driver = 'david coulthard'"}
+{"id": "sc-2505", "prediction": "SELECT COUNT(role_code) FROM Project_Staff", "raw": "SELECT COUNT(role_code) FROM Project_Staff"}
+{"id": "sc-26599", "prediction": "SELECT mixed_doubles FROM table_name_49 WHERE year = '2007'", "raw": "SELECT mixed_doubles FROM table_name_49 WHERE year = '2007'"}
+{"id": "sc-70170", "prediction": "SELECT owner FROM table_name_90 WHERE frequency = '0 101.5 fm'", "raw": "SELECT owner FROM table_name_90 WHERE frequency = '0 101.5 fm'"}
+{"id": "sc-35971", "prediction": "SELECT Syrian Christians FROM table_23214055_2 WHERE district = 'Thiruvananthapuram'", "raw": "SELECT Syrian Christians FROM table_23214055_2 WHERE district = 'Thiruvananthapuram'"}
+{"id": "sc-43158", "prediction": "SELECT format FROM table_name_81 WHERE catalog = '561 445-1'", "raw": "SELECT format FROM table_name_81 WHERE catalog = '561 445-1'"}
+{"id": "sc-8738", "prediction": "SELECT name FROM table_name_90 WHERE round > 10 AND circuit = 'Silverstone'", "raw": "SELECT name FROM table_name_90 WHERE round > 10 AND circuit = 'Silverstone'"}
+{"id": "sc-20138", "prediction": "SELECT season FROM table_20217456_7 WHERE rl_s\u00fcd__2nd_ = 'Freiburger FC'", "raw": "SELECT season FROM table_20217456_7 WHERE rl_s\u00fcd__2nd_ = 'Freiburger FC'"}
+{"id": "sc-60218", "prediction": "SELECT date FROM table_name_88 WHERE attendance = '35,763'", "raw": "SELECT date FROM table_name_88 WHERE attendance = '35,763'"}
+{"id": "sc-31058", "prediction": "SELECT residence_hall FROM table_15873547_1 WHERE mascot = 'vermin'", "raw": "SELECT residence_hall FROM table_15873547_1 WHERE mascot = 'vermin'"}
+{"id": "sc-43305", "prediction": "SELECT MAX(round) FROM table_name_53 WHERE position = 'back' AND player LIKE '%Cody%'", "raw": "SELECT MAX(round) FROM table_name_53 WHERE position = 'back' AND player LIKE '%Cody%'"}
+{"id": "sc-43855", "prediction": "SELECT score FROM table_name_21 WHERE opponents = 'valencia' AND year = '2011-12'", "raw": "SELECT score FROM table_name_21 WHERE opponents = 'valencia' AND year = '2011-12'"}
+{"id": "sc-45739", "prediction": "SELECT result FROM table_name_37 WHERE week = '4'", "raw": "SELECT result FROM table_name_37 WHERE week = '4'"}
+{"id": "sc-20082", "prediction": "SELECT party FROM table_19753079_35 WHERE district = 'New York 4'", "raw": "SELECT party FROM table_19753079_35 WHERE district = 'New York 4'"}
+{"id": "sc-25082", "prediction": "SELECT COUNT(goal) FROM table_name_61 WHERE score = '3-0' AND competition = 'euro 2012'", "raw": "SELECT COUNT(goal) FROM table_name_61 WHERE score = '3-0' AND competition = 'euro 2012'"}
+{"id": "sc-32726", "prediction": "SELECT status FROM table_18159601_1 WHERE city = 'Vestal'", "raw": "SELECT status FROM table_18159601_1 WHERE city = 'Vestal'"}
+{"id": "sc-51022", "prediction": "SELECT AVG(week) FROM table_name_58 WHERE opponent = 'Chicago bears'", "raw": "SELECT AVG(week) FROM table_name_58 WHERE opponent = 'Chicago bears'"}
+{"id": "sc-26335", "prediction": "SELECT nhl_team FROM table_name_97 WHERE player = 'Steve Dumba'", "raw": "SELECT nhl_team FROM table_name_97 WHERE player = 'Steve Dumba'"}
+{"id": "sc-57683", "prediction": "SELECT gecko FROM table_name_34 WHERE trident = 'font'", "raw": "SELECT gecko FROM table_name_34 WHERE trident = 'font'"}
+{"id": "sc-5216", "prediction": "SELECT result FROM table_1341973_6 WHERE incumbent = \"clyde doyle\"", "raw": "SELECT result FROM table_1341973_6 WHERE incumbent = \"clyde doyle\""}
+{"id": "sc-40637", "prediction": "SELECT COUNT(position) FROM table_2897457_4 WHERE nhl_team = 'Minnesota North Stars'", "raw": "SELECT COUNT(position) FROM table_2897457_4 WHERE nhl_team = 'Minnesota North Stars'"}
+{"id": "sc-39503", "prediction": "SELECT date FROM table_27537518_9 WHERE record = '27-28-11'", "raw": "SELECT date FROM table_27537518_9 WHERE record = '27-28-11'"}
+{"id": "sc-49854", "prediction": "SELECT MAX(number) FROM table_name_50 WHERE name = 'Tim Andree'", "raw": "SELECT MAX(number) FROM table_name_50 WHERE name = 'Tim Andree'"}
+{"id": "sc-33054", "prediction": "SELECT MAX(wins) FROM table_18703133_1 WHERE team = 'Colombia'", "raw": "SELECT MAX(wins) FROM table_18703133_1 WHERE team = 'Colombia'"}
+{"id": "sc-38710", "prediction": "SELECT location FROM table_26476336_2 WHERE years BETWEEN '2005' AND '2010'", "raw": "SELECT location FROM table_26476336_2 WHERE years BETWEEN '2005' AND '2010'"}
+{"id": "sc-60664", "prediction": "SELECT result FROM table_name_49 WHERE date = '1988-11-20'", "raw": "SELECT result FROM table_name_49 WHERE date = '1988-11-20'"}
+{"id": "sc-40596", "prediction": "SELECT crashandride_cymbalpads FROM table_2889300_6 WHERE drumset_name = 'td-9k2'", "raw": "SELECT crashandride_cymbalpads FROM table_2889300_6 WHERE drumset_name = 'td-9k2'"}
+{"id": "sc-45444", "prediction": "SELECT pat_robertson FROM table_name_12 WHERE bob_dole = '26%' AND george_hw_bush = '47%'", "raw": "SELECT pat_robertson FROM table_name_12 WHERE bob_dole = '26%' AND george_hw_bush = '47%';"}
+{"id": "sc-44174", "prediction": "SELECT first_elected FROM table_name_45 WHERE result = 're-elected' AND district = 'south carolina 1' ORDER BY first_elected LIMIT 1", "raw": "SELECT first_elected FROM table_name_45 WHERE result = 're-elected' AND district = 'south carolina 1' ORDER BY first_elected LIMIT 1"}
+{"id": "sc-54922", "prediction": "SELECT latitude FROM table_name_66 WHERE longitude = '152.0e' AND YEAR(NOW()) - YEAR(date_column) > 1997", "raw": "SELECT latitude FROM table_name_66 WHERE longitude = '152.0e' AND YEAR(NOW()) - YEAR(date_column) > 1997"}
+{"id": "sc-40845", "prediction": "SELECT MAX(subscribers__2006___thousands_) AS max_subscribers FROM table_29395291_2 WHERE provider = 'Glo Mobile'", "raw": "SELECT MAX(subscribers__2006___thousands_) AS max_subscribers FROM table_29395291_2 WHERE provider = 'Glo Mobile'"}
+{"id": "sc-29192", "prediction": "SELECT candidates FROM table_1341663_33 WHERE incumbent = 'Shirley Chisholm'", "raw": "SELECT candidates FROM table_1341663_33 WHERE incumbent = 'Shirley Chisholm'"}
+{"id": "sc-17772", "prediction": "SELECT game_site FROM table_name_57 WHERE week = '14'", "raw": "SELECT game_site FROM table_name_57 WHERE week = '14'"}
+{"id": "sc-30491", "prediction": "SELECT COUNT(DISTINCT league) FROM table_14962287_2 WHERE name = 'Billy Meredith'", "raw": "SELECT COUNT(DISTINCT league) FROM table_14962287_2 WHERE name = 'Billy Meredith'"}
+{"id": "sc-64345", "prediction": "SELECT wkts FROM table_name_13 WHERE econ = \"4.23\"", "raw": "SELECT wkts FROM table_name_13 WHERE econ = \"4.23\""}
+{"id": "sc-77542", "prediction": "SELECT d_41_\u221a FROM table_name_20 WHERE d_43_o = 'r13' AND d_41_\u221a = 'D 41 \u221a'", "raw": "SELECT d_41_\u221a FROM table_name_20 WHERE d_43_o = 'r13' AND d_41_\u221a = 'D 41 \u221a'"}
+{"id": "sc-43156", "prediction": "SELECT visitor FROM table_name_54 WHERE record = '14-17-5'", "raw": "SELECT visitor FROM table_name_54 WHERE record = '14-17-5'"}
+{"id": "sc-48740", "prediction": "SELECT position FROM table_name_63 WHERE points < 6", "raw": "SELECT position FROM table_name_63 WHERE points < 6"}
+{"id": "sc-76193", "prediction": "SELECT SUM(best) FROM table_name_32 WHERE name = 'Bruno Junqueira'", "raw": "SELECT SUM(best) FROM table_name_32 WHERE name = 'Bruno Junqueira'"}
+{"id": "sc-61775", "prediction": "SELECT attendance FROM table_name_22 WHERE visitor = \"Anaheim\"", "raw": "SELECT attendance FROM table_name_22 WHERE visitor = \"Anaheim\""}
+{"id": "sc-5727", "prediction": "SELECT school FROM table_15475116_1 WHERE colors = 'maroon' AND colors = 'white'", "raw": "SELECT school FROM table_15475116_1 WHERE colors = 'maroon' AND colors = 'white'"}
+{"id": "sc-58574", "prediction": "SELECT state FROM table_name_21 WHERE royal_house = \"ji\" AND name LIKE \"%wu%\"", "raw": "SELECT state FROM table_name_21 WHERE royal_house = \"ji\" AND name LIKE \"%wu%\""}
+{"id": "sc-59118", "prediction": "SELECT MIN(number) FROM table_name_48 WHERE college = 'University of Alabama'", "raw": "SELECT MIN(number) FROM table_name_48 WHERE college = 'University of Alabama'"}
+{"id": "sc-73794", "prediction": "SELECT attendance FROM table_name_34 WHERE loss = \"Crabtree (0-1)\"", "raw": "SELECT attendance FROM table_name_34 WHERE loss = \"Crabtree (0-1)\""}
+{"id": "sc-67847", "prediction": "year__ceremony_ = \"2005\" AND original_title = \"el tinte de la fama\"", "raw": "year__ceremony_ = \"2005\" AND original_title = \"el tinte de la fama\""}
+{"id": "sc-71967", "prediction": "SELECT location FROM table_name_15 WHERE date = 'September 3'", "raw": "SELECT location FROM table_name_15 WHERE date = 'September 3'"}
+{"id": "sc-59332", "prediction": "SELECT aspect FROM table_name_18 WHERE programming = 'latv'", "raw": "SELECT aspect FROM table_name_18 WHERE programming = 'latv'"}
+{"id": "sc-17013", "prediction": "SELECT points_classification FROM table_name_46 WHERE stage = '18' AND general_classification = 'Denis Menchov'", "raw": "SELECT points_classification FROM table_name_46 WHERE stage = '18' AND general_classification = 'Denis Menchov'"}
+{"id": "sc-38700", "prediction": "SELECT written_by FROM table_26464364_1 WHERE directed_by = 'Justin Hartley'", "raw": "SELECT written_by FROM table_26464364_1 WHERE directed_by = 'Justin Hartley'"}
+{"id": "sc-52678", "prediction": "Tie_no = 1", "raw": "Tie_no = 1"}
+{"id": "sc-3959", "prediction": "SELECT COUNT(Id) FROM singer", "raw": "SELECT COUNT(Id) FROM singer"}
+{"id": "sc-5274", "prediction": "SELECT `team` FROM table_13464416_4 WHERE high_rebounds = 'Golden State'", "raw": "SELECT `team` FROM table_13464416_4 WHERE high_rebounds = 'Golden State'"}
+{"id": "sc-42423", "prediction": "SELECT MAX(crowd) FROM table_name_87 WHERE venue = 'arden street oval'", "raw": "SELECT MAX(crowd) FROM table_name_87 WHERE venue = 'arden street oval'"}
+{"id": "sc-73760", "prediction": "time__eest_ = \"ss8\" AND stage = \"ss8\"", "raw": "time__eest_ = \"ss8\" AND stage = \"ss8\""}
+{"id": "sc-62936", "prediction": "SELECT name FROM table_name_46 WHERE license = 'gpl' AND actual_version = '0.8.29wip4'", "raw": "SELECT name FROM table_name_46 WHERE license = 'gpl' AND actual_version = '0.8.29wip4'"}
+{"id": "sc-25826", "prediction": "SELECT murder__2012__rate_per_100 FROM table_name_26 WHERE peace__2012__gpi = '1.616'", "raw": "SELECT murder__2012__rate_per_100 FROM table_name_26 WHERE peace__2012__gpi = '1.616'"}
+{"id": "sc-34544", "prediction": "SELECT specialization FROM table_2112260_1 WHERE website = 'Jstu.edu.bd'", "raw": "SELECT specialization FROM table_2112260_1 WHERE website = 'Jstu.edu.bd'"}
+{"id": "sc-49435", "prediction": "SELECT winning_driver FROM table_name_10 WHERE most_laps_led = 'Dario Franchitti' AND pole_position = 'H\u00e9lio Castroneves'", "raw": "SELECT winning_driver FROM table_name_10 WHERE most_laps_led = 'Dario Franchitti' AND pole_position = 'H\u00e9lio Castroneves'"}
+{"id": "sc-10134", "prediction": "SELECT opponent FROM table_name_2 WHERE date = 'September 4'", "raw": "SELECT opponent FROM table_name_2 WHERE date = 'September 4'"}
+{"id": "sc-16537", "prediction": "SELECT inhabitants FROM table_name_42 WHERE election = \"2009\" AND municipality = \"crembra\"", "raw": "SELECT inhabitants FROM table_name_42 WHERE election = \"2009\" AND municipality = \"crembra\""}
+{"id": "sc-19292", "prediction": "SELECT original_artist FROM table_12310814_1 WHERE episode IN (SELECT MAX(episode) FROM table_12310814_1)", "raw": "SELECT original_artist FROM table_12310814_1 WHERE episode IN (SELECT MAX(episode) FROM table_12310814_1)"}
+{"id": "sc-40", "prediction": "SELECT student_id FROM student_course_attendance WHERE student_id IN (SELECT student_id FROM student_course_attendance GROUP BY student_id HAVING COUNT(*) > 1)", "raw": "SELECT student_id FROM student_course_attendance WHERE student_id IN (SELECT student_id FROM student_course_attendance GROUP BY student_id HAVING COUNT(*) > 1)"}
+{"id": "sc-60711", "prediction": "SELECT date FROM table_name_77 WHERE winning_driver = 'pedro rodr\u00edguez'", "raw": "SELECT date FROM table_name_77 WHERE winning_driver = 'pedro rodr\u00edguez'"}
+{"id": "sc-10216", "prediction": "SELECT date FROM table_name_13 WHERE result = '0-2' AND opponent = 'aberdeen'", "raw": "SELECT date FROM table_name_13 WHERE result = '0-2' AND opponent = 'aberdeen'"}
+{"id": "sc-61245", "prediction": "SELECT SUM(losses) FROM table_name_61 WHERE mlb_season = '1943'", "raw": "SELECT SUM(losses) FROM table_name_61 WHERE mlb_season = '1943'"}
+{"id": "sc-969", "prediction": "SELECT COUNT(DISTINCT u_id) FROM review", "raw": "SELECT COUNT(DISTINCT u_id) FROM review"}
+{"id": "sc-68457", "prediction": "SELECT result FROM table_name_41 WHERE attendance = '82,113'", "raw": "SELECT result FROM table_name_41 WHERE attendance = '82,113'"}
+{"id": "sc-55770", "prediction": "SELECT location FROM table_name_11 WHERE result = '29-14'", "raw": "SELECT location FROM table_name_11 WHERE result = '29-14'"}
+{"id": "sc-30324", "prediction": "SELECT DISTINCT nhl_team FROM table_1473672_9 WHERE college_junior_club_team = 'Brandon Wheat Kings'", "raw": "SELECT DISTINCT nhl_team FROM table_1473672_9 WHERE college_junior_club_team = 'Brandon Wheat Kings'"}
+{"id": "sc-4061", "prediction": "SELECT Abbreviation FROM AIRLINES WHERE Airline = 'JetBlue Airways'", "raw": "SELECT Abbreviation FROM AIRLINES WHERE Airline = 'JetBlue Airways'"}
+{"id": "sc-33698", "prediction": "SELECT founded FROM table_1974545_2 WHERE location = 'Salem, Massachusetts'", "raw": "SELECT founded FROM table_1974545_2 WHERE location = 'Salem, Massachusetts'"}
+{"id": "sc-54299", "prediction": "SELECT score FROM table_name_90 WHERE team_2 = 'Yokohama F. Marinos' AND venue = 'n/a'", "raw": "SELECT score FROM table_name_90 WHERE team_2 = 'Yokohama F. Marinos' AND venue = 'n/a'"}
+{"id": "sc-38180", "prediction": "SELECT COUNT(opengl) FROM table_25839957_5 WHERE code_name = 'ironlake (clarkdale)'", "raw": "SELECT COUNT(opengl) FROM table_25839957_5 WHERE code_name = 'ironlake (clarkdale)'"}
+{"id": "sc-52116", "prediction": "SELECT type FROM table_name_29 WHERE locomotive_number = 'CTN 1364'", "raw": "SELECT type FROM table_name_29 WHERE locomotive_number = 'CTN 1364'"}
+{"id": "sc-74655", "prediction": "SELECT city FROM table_name_57 WHERE icao = \"RJSN\"", "raw": "SELECT city FROM table_name_57 WHERE icao = \"RJSN\""}
+{"id": "sc-56310", "prediction": "SELECT date FROM table_name_47 WHERE site = 'UMBC Field'", "raw": "SELECT date FROM table_name_47 WHERE site = 'UMBC Field'"}
+{"id": "sc-15092", "prediction": "SELECT nationality FROM table_name_86 WHERE player = 'Mattias Modig'", "raw": "SELECT nationality FROM table_name_86 WHERE player = 'Mattias Modig'"}
+{"id": "sc-886", "prediction": "SELECT account_id, date_account_opened, account_name, other_account_details FROM Accounts", "raw": "SELECT account_id, date_account_opened, account_name, other_account_details FROM Accounts"}
+{"id": "sc-69437", "prediction": "SELECT score FROM table_name_75 WHERE opponents = 'luk\u00e1\u0161 dlouh\u00fd leander paes'", "raw": "SELECT score FROM table_name_75 WHERE opponents = 'luk\u00e1\u0161 dlouh\u00fd leander paes'"}
+{"id": "sc-52406", "prediction": "SELECT place FROM table_name_28 WHERE player = 'Mark O'Meara'", "raw": "SELECT place FROM table_name_28 WHERE player = 'Mark O'Meara'"}
+{"id": "sc-40540", "prediction": "SELECT economy FROM table_28797906_3 WHERE wickets = 29", "raw": "SELECT economy FROM table_28797906_3 WHERE wickets = 29"}
+{"id": "sc-8484", "prediction": "SELECT COUNT(route_number) FROM table_3005999_1 WHERE origin = 'Birmingham' AND destination = 'Bristol'", "raw": "SELECT COUNT(route_number) FROM table_3005999_1 WHERE origin = 'Birmingham' AND destination = 'Bristol'"}
+{"id": "sc-40564", "prediction": "SELECT MAX(matches) FROM table_28846752_8", "raw": "SELECT MAX(matches) FROM table_28846752_8"}
+{"id": "sc-55334", "prediction": "SELECT record FROM table_name_72 WHERE game = '19'", "raw": "SELECT record FROM table_name_72 WHERE game = '19'"}
+{"id": "sc-30618", "prediction": "SELECT MAX(year) FROM table_1514559_1 WHERE championship = 'US Open'", "raw": "SELECT MAX(year) FROM table_1514559_1 WHERE championship = 'US Open'"}
+{"id": "sc-17136", "prediction": "SELECT japanese_title FROM table_name_26 WHERE tv_station = 'NHK' AND average_ratings LIKE '%9.2%'", "raw": "SELECT japanese_title FROM table_name_26 WHERE tv_station = 'NHK' AND average_ratings LIKE '%9.2%'"}
+{"id": "sc-67041", "prediction": "american = '\u026a, \u0259' AND british = '\u026a, \u0259' AND initial_syllable_open_semi_open_unstressed_vowels = '\u00e6 /\u0268/'", "raw": "american = '\u026a, \u0259' AND british = '\u026a, \u0259' AND initial_syllable_open_semi_open_unstressed_vowels = '\u00e6 /\u0268/'"}
+{"id": "sc-24566", "prediction": "SELECT name FROM table_name_89 WHERE rank = '5'", "raw": "SELECT name FROM table_name_89 WHERE rank = '5'"}
+{"id": "sc-63147", "prediction": "SELECT yards FROM table_name_56 WHERE avg < 3 ORDER BY yards LIMIT 1", "raw": "SELECT yards FROM table_name_56 WHERE avg < 3 ORDER BY yards LIMIT 1"}
+{"id": "sc-42678", "prediction": "SELECT AVG(goals) FROM table_name_53 WHERE venue = 'Hong Kong Stadium, Hong Kong'", "raw": "SELECT AVG(goals) FROM table_name_53 WHERE venue = 'Hong Kong Stadium, Hong Kong'"}
+{"id": "sc-32995", "prediction": "SELECT COUNT(ansi_code) FROM table_18600760_20 WHERE latitude = '48.142938'", "raw": "SELECT COUNT(ansi_code) FROM table_18600760_20 WHERE latitude = '48.142938'"}
+{"id": "sc-72981", "prediction": "SELECT game FROM table_name_60 WHERE location_attendance = 'Los Angeles Memorial Sports Arena'", "raw": "SELECT game FROM table_name_60 WHERE location_attendance = 'Los Angeles Memorial Sports Arena'"}
+{"id": "sc-76557", "prediction": "take_office = 2014", "raw": "take_office = 2014"}
+{"id": "sc-35211", "prediction": "SELECT title FROM table_2226817_9 WHERE no_in_series = '165'", "raw": "SELECT title FROM table_2226817_9 WHERE no_in_series = '165'"}
+{"id": "sc-42055", "prediction": "SELECT final_four FROM table_name_32 WHERE win__percentage = '0.750'", "raw": "SELECT final_four FROM table_name_32 WHERE win__percentage = '0.750'"}
+{"id": "sc-53730", "prediction": "SELECT place FROM table_name_78 WHERE player = 'Steve Lowery'", "raw": "SELECT place FROM table_name_78 WHERE player = 'Steve Lowery'"}
+{"id": "sc-3171", "prediction": "SELECT name FROM event ORDER BY YEAR DESC LIMIT 1", "raw": "SELECT name FROM event ORDER BY YEAR DESC LIMIT 1"}
+{"id": "sc-40176", "prediction": "SELECT title FROM table_28146944_2 WHERE no_in_series = '36'", "raw": "SELECT title FROM table_28146944_2 WHERE no_in_series = '36'"}
+{"id": "sc-49313", "prediction": "SELECT song FROM table_name_15 WHERE artist = 'Gino Vannelli'", "raw": "SELECT song FROM table_name_15 WHERE artist = 'Gino Vannelli'"}
+{"id": "sc-25076", "prediction": "time_retired = \"42\" AND laps = \"4\"", "raw": "time_retired = \"42\" AND laps = \"4\""}
+{"id": "sc-36605", "prediction": "outcome VARCHAR", "raw": "outcome VARCHAR"}
+{"id": "sc-65608", "prediction": "SELECT name FROM table_name_27 WHERE authority = 'state' AND roll = '318'", "raw": "SELECT name FROM table_name_27 WHERE authority = 'state' AND roll = '318'"}
+{"id": "sc-65503", "prediction": "SELECT MIN(crowd) AS lowest_crowd FROM table_name_50 WHERE venue = 'kardinia park'", "raw": "SELECT MIN(crowd) AS lowest_crowd FROM table_name_50 WHERE venue = 'kardinia park'"}
+{"id": "sc-26989", "prediction": "SELECT total FROM table_10128185_2 WHEREScotland = '35'", "raw": "SELECT total FROM table_10128185_2 WHEREScotland = '35'"}
+{"id": "sc-59215", "prediction": "SELECT established FROM table_name_14 WHERE nickname = \"pride\"", "raw": "SELECT established FROM table_name_14 WHERE nickname = \"pride\""}
+{"id": "sc-36638", "prediction": "SELECT COUNT(teams_that_have_been_eliminated) FROM table_23995075_2 WHERE teams_started = '11'", "raw": "SELECT COUNT(teams_that_have_been_eliminated) FROM table_23995075_2 WHERE teams_started = '11'"}
+{"id": "sc-45676", "prediction": "SELECT points FROM table_name_73 WHERE rank = '5' AND class = '350cc'", "raw": "SELECT points FROM table_name_73 WHERE rank = '5' AND class = '350cc'"}
+{"id": "sc-35631", "prediction": "SELECT county FROM table_22815568_6 WHERE poverty_rate = '12.9%'", "raw": "SELECT county FROM table_22815568_6 WHERE poverty_rate = '12.9%'"}
+{"id": "sc-18604", "prediction": "SELECT DISTINCT country FROM table_name_5 WHERE client = 'Agiba-agip'", "raw": "SELECT DISTINCT country FROM table_name_5 WHERE client = 'Agiba-agip'"}
+{"id": "sc-7733", "prediction": "SELECT MIN(gdp__ppp__per_capita) FROM table_25869317_1", "raw": "SELECT MIN(gdp__ppp__per_capita) FROM table_25869317_1"}
+{"id": "sc-14753", "prediction": "SELECT COUNT(crowd) FROM table_name_88 WHERE venue = 'Junction Oval'", "raw": "SELECT COUNT(crowd) FROM table_name_88 WHERE venue = 'Junction Oval'"}
+{"id": "sc-71143", "prediction": "SELECT _number___county FROM table_name_8 WHERE location = 'Fountain City'", "raw": "SELECT _number___county FROM table_name_8 WHERE location = 'Fountain City'"}
+{"id": "sc-37744", "prediction": "SELECT road FROM table_25438110_5 WHERE county = 'Carson Valley'", "raw": "SELECT road FROM table_25438110_5 WHERE county = 'Carson Valley'"}
+{"id": "sc-42691", "prediction": "SELECT city FROM table_name_80 WHERE host = 'University of Montana'", "raw": "SELECT city FROM table_name_80 WHERE host = 'University of Montana'"}
+{"id": "sc-3424", "prediction": "SELECT SUM(gamesplayed) FROM Sportsinfo", "raw": "SELECT SUM(gamesplayed) FROM Sportsinfo"}
+{"id": "sc-75227", "prediction": "SELECT season FROM table_name_72 WHERE apps > 6 AND country = 'Uzbekistan' AND team = 'Fc Pakhtakor Tashkent'", "raw": "SELECT season FROM table_name_72 WHERE apps > 6 AND country = 'Uzbekistan' AND team = 'Fc Pakhtakor Tashkent'"}
+{"id": "sc-64339", "prediction": "SELECT high_rebounds FROM table_name_36 WHERE date = 'February 24'", "raw": "SELECT high_rebounds FROM table_name_36 WHERE date = 'February 24'"}
+{"id": "sc-9477", "prediction": "SELECT DISTINCT team FROM table_name_53 WHERE location_attendance = 'Air Canada Centre 19,800' AND record = '41-33'", "raw": "SELECT DISTINCT team FROM table_name_53 WHERE location_attendance = 'Air Canada Centre 19,800' AND record = '41-33'"}
+{"id": "sc-30024", "prediction": "SELECT MIN(clock_rate__mhz_) FROM table_142573_1", "raw": "SELECT MIN(clock_rate__mhz_) FROM table_142573_1"}
+{"id": "sc-26824", "prediction": "SELECT name_of_kingdom FROM table_name_65 WHERE capital = 'Suin'", "raw": "SELECT name_of_kingdom FROM table_name_65 WHERE capital = 'Suin'"}
+{"id": "sc-39793", "prediction": "SELECT high_points FROM table_27755603_10 WHERE team = \"Washington\"", "raw": "SELECT high_points FROM table_27755603_10 WHERE team = \"Washington\""}
+{"id": "sc-33318", "prediction": "SELECT SUM(bangladeshi_population) FROM table_19149550_9 WHERE rank = '7'", "raw": "SELECT SUM(bangladeshi_population) FROM table_19149550_9 WHERE rank = '7'"}
+{"id": "sc-10016", "prediction": "SELECT `winner` FROM table_name_75 WHERE `stage` = '3'", "raw": "SELECT `winner` FROM table_name_75 WHERE `stage` = '3'"}
+{"id": "sc-38438", "prediction": "SELECT losses FROM table_26200568_16 WHERE club = 'Central Blues'", "raw": "SELECT losses FROM table_26200568_16 WHERE club = 'Central Blues'"}
+{"id": "sc-13933", "prediction": "SELECT role FROM table_name_57 WHERE genre = 'drama' AND year = '1973'", "raw": "SELECT role FROM table_name_57 WHERE genre = 'drama' AND year = '1973'"}
+{"id": "sc-25371", "prediction": "SELECT co_contestant__yaar_vs_pyaar_ FROM table_name_90 WHERE main_contestant = 'Vishal Singh'", "raw": "SELECT co_contestant__yaar_vs_pyaar_ FROM table_name_90 WHERE main_contestant = 'Vishal Singh'"}
+{"id": "sc-37146", "prediction": "SELECT model__list_ FROM table_2467150_2 WHERE processor = 'Kentsfield' AND brand_name = 'Xeon'", "raw": "SELECT model__list_ FROM table_2467150_2 WHERE processor = 'Kentsfield' AND brand_name = 'Xeon'"}
+{"id": "sc-27698", "prediction": "SELECT date FROM table_1140103_6 WHERE circuit = 'solitudering'", "raw": "SELECT date FROM table_1140103_6 WHERE circuit = 'solitudering'"}
+{"id": "sc-44479", "prediction": "SELECT time FROM table_name_39 WHERE opponent = 'shamil abdurahimov'", "raw": "SELECT time FROM table_name_39 WHERE opponent = 'shamil abdurahimov'"}
+{"id": "sc-74380", "prediction": "SELECT COUNT(loss) FROM table_name_84 WHERE coach = \"john kowalski\" AND pts < 9", "raw": "SELECT COUNT(loss) FROM table_name_84 WHERE coach = \"john kowalski\" AND pts < 9"}
+{"id": "sc-30291", "prediction": "SELECT arrival FROM table_14688744_2 WHERE no = '14'", "raw": "SELECT arrival FROM table_14688744_2 WHERE no = '14'"}
+{"id": "sc-28661", "prediction": "SELECT thursday_guru__jupiter_ FROM table_1277350_3 WHERE wednesday_budha__mercury_ = '\u092c\u0942\u0927\u0935\u0930'", "raw": "SELECT thursday_guru__jupiter_ FROM table_1277350_3 WHERE wednesday_budha__mercury_ = '\u092c\u0942\u0927\u0935\u0930'"}
+{"id": "sc-34432", "prediction": "SELECT episode FROM table_2101431_1 WHERE run_time = '24:18'", "raw": "SELECT episode FROM table_2101431_1 WHERE run_time = '24:18'"}
+{"id": "sc-5500", "prediction": "SELECT player FROM table_14342592_5 WHERE extra_points = '12'", "raw": "SELECT player FROM table_14342592_5 WHERE extra_points = '12'"}
+{"id": "sc-38647", "prediction": "SELECT DISTINCT main_language_s_ FROM table_26385848_1 WHERE year__ceremony_ = '1998' AND main_language_s_ IS NOT NULL", "raw": "SELECT DISTINCT main_language_s_ FROM table_26385848_1 WHERE year__ceremony_ = '1998' AND main_language_s_ IS NOT NULL"}
+{"id": "sc-49619", "prediction": "SELECT CASE WHEN T1.hdtv = 'daystar' THEN 'Yes' ELSE 'No' END as result FROM table_name_50 AS T1 JOIN television_service AS T2 ON T1.television_service = T2.service_id WHERE T2.name = 'daystar'", "raw": "SELECT CASE WHEN T1.hdtv = 'daystar' THEN 'Yes' ELSE 'No' END as result FROM table_name_50 AS T1 JOIN television_service AS T2 ON T1.television_service = T2.service_id WHERE T2.name = 'daystar'"}
+{"id": "sc-15700", "prediction": "SELECT DISTINCT country FROM table_name_55 WHERE format = 'LP'", "raw": "SELECT DISTINCT country FROM table_name_55 WHERE format = 'LP'"}
+{"id": "sc-62931", "prediction": "SELECT AVG(episode_number) FROM table_name_65 WHERE location = 'Tanzania' AND _number_in_season > 5", "raw": "SELECT AVG(episode_number) FROM table_name_65 WHERE location = 'Tanzania' AND _number_in_season > 5"}
+{"id": "sc-23799", "prediction": "day_3 = \"fr.\" AND day_4 = \"fr.\"", "raw": "day_3 = \"fr.\" AND day_4 = \"fr.\""}
+{"id": "sc-1055", "prediction": "SELECT id, name, market_share FROM browser", "raw": "SELECT id, name, market_share FROM browser"}
+{"id": "sc-59833", "prediction": "SELECT away_team FROM table_name_55 WHERE venue = 'mcg'", "raw": "SELECT away_team FROM table_name_55 WHERE venue = 'mcg'"}
+{"id": "sc-67084", "prediction": "SELECT pick FROM table_name_58 WHERE player = 'Chuck Bryant' AND nfl_club = 'San Diego Chargers'", "raw": "SELECT pick FROM table_name_58 WHERE player = 'Chuck Bryant' AND nfl_club = 'San Diego Chargers'"}
+{"id": "sc-29508", "prediction": "SELECT district FROM table_1342315_12 WHERE party = 'Republican'", "raw": "SELECT district FROM table_1342315_12 WHERE party = 'Republican'"}
+{"id": "sc-31829", "prediction": "SELECT `pe\u030dh_\u014de_j\u012b` FROM table_17015_2 WHERE chinese = '\u524d\u91d1\u5340'", "raw": "SELECT `pe\u030dh_\u014de_j\u012b` FROM table_17015_2 WHERE chinese = '\u524d\u91d1\u5340'"}
+{"id": "sc-39946", "prediction": "SELECT legs_lost FROM table_27906667_2 WHERE high_checkout = '101'", "raw": "SELECT legs_lost FROM table_27906667_2 WHERE high_checkout = '101'"}
+{"id": "sc-38294", "prediction": "SELECT MIN(runs) FROM table_26041144_10", "raw": "SELECT MIN(runs) FROM table_26041144_10"}
+{"id": "sc-5732", "prediction": "SELECT COUNT(district) FROM table_15572443_1 WHERE election_date = '1799-12-17'", "raw": "SELECT COUNT(district) FROM table_15572443_1 WHERE election_date = '1799-12-17'"}
+{"id": "sc-28214", "prediction": "SELECT high_assists FROM table_11960610_10 WHERE high_points = 'Gordon'", "raw": "SELECT high_assists FROM table_11960610_10 WHERE high_points = 'Gordon'"}
+{"id": "sc-4335", "prediction": "SELECT MAX(created) FROM votes WHERE state = 'CA'", "raw": "SELECT MAX(created) FROM votes WHERE state = 'CA'"}
+{"id": "sc-14765", "prediction": "engine_type = \"base 2.4\"", "raw": "engine_type = \"base 2.4\""}
+{"id": "sc-65574", "prediction": "SELECT venue FROM table_name_60 WHERE runs = '332'", "raw": "SELECT venue FROM table_name_60 WHERE runs = '332'"}
+{"id": "sc-14113", "prediction": "SELECT results FROM table_name_73 WHERE institutional_authority = 'paf'", "raw": "SELECT results FROM table_name_73 WHERE institutional_authority = 'paf'"}
+{"id": "sc-20248", "prediction": "surface = 'snow' AND year = '1983'", "raw": "surface = 'snow' AND year = '1983'"}
+{"id": "sc-4671", "prediction": "SELECT studio FROM table_11222744_3 WHERE catalog_number = 'cal03 / 0091037137333'", "raw": "SELECT studio FROM table_11222744_3 WHERE catalog_number = 'cal03 / 0091037137333'"}
+{"id": "sc-31323", "prediction": "SELECT film_title_used_in_nomination FROM table_16255245_1 WHERE original_title = 'Wohin und zur\u00fcck - Welcome in Vienna'", "raw": "SELECT film_title_used_in_nomination FROM table_16255245_1 WHERE original_title = 'Wohin und zur\u00fcck - Welcome in Vienna'"}
+{"id": "sc-70591", "prediction": "home_team = \"RiverCity Rage\"", "raw": "home_team = \"RiverCity Rage\""}
+{"id": "sc-66899", "prediction": "SELECT potential_prize_money FROM table_name_70 WHERE mole = 'Petrina Edge'", "raw": "SELECT potential_prize_money FROM table_name_70 WHERE mole = 'Petrina Edge'"}
+{"id": "sc-7085", "prediction": "SELECT league_finish FROM table_22962745_12 WHERE w = 11", "raw": "SELECT league_finish FROM table_22962745_12 WHERE w = 11"}
+{"id": "sc-27301", "prediction": "SELECT village__slovenian_ FROM table_10797463_1 WHERE percent_of_slovenes_1991 = '16.7'", "raw": "SELECT village__slovenian_ FROM table_10797463_1 WHERE percent_of_slovenes_1991 = '16.7'"}
+{"id": "sc-58917", "prediction": "SELECT AVG(losses) FROM table_name_23 WHERE goals_for = 22", "raw": "SELECT AVG(losses) FROM table_name_23 WHERE goals_for = 22"}
+{"id": "sc-58751", "prediction": "SELECT COUNT(drawn) FROM table_name_44 WHERE lost < 12 AND goal_difference = -20", "raw": "SELECT COUNT(drawn) FROM table_name_44 WHERE lost < 12 AND goal_difference = -20"}
+{"id": "sc-20809", "prediction": "SELECT surface FROM table_26202847_6 WHERE score_in_the_final = '2-6, 6-2, 6-0'", "raw": "SELECT surface FROM table_26202847_6 WHERE score_in_the_final = '2-6, 6-2, 6-0'"}
+{"id": "sc-64196", "prediction": "SELECT particle FROM table_name_11 WHERE rest_mass_mev___c_2 = '1383.7\u00b11.0'", "raw": "SELECT particle FROM table_name_11 WHERE rest_mass_mev___c_2 = '1383.7\u00b11.0'"}
+{"id": "sc-40133", "prediction": "SELECT MIN(births) FROM table_28137918_5 WHERE conversions = '26,333'", "raw": "SELECT MIN(births) FROM table_28137918_5 WHERE conversions = '26,333'"}
+{"id": "sc-45060", "prediction": "SELECT `population__2010_11_01_` FROM table_name_50 WHERE name = 'Bayan County'", "raw": "SELECT `population__2010_11_01_` FROM table_name_50 WHERE name = 'Bayan County'"}
+{"id": "sc-71725", "prediction": "result = \"Los Angeles Dons\"", "raw": "result = \"Los Angeles Dons\""}
+{"id": "sc-73866", "prediction": "SELECT launched FROM table_name_64 WHERE ship = 'fearless'", "raw": "SELECT launched FROM table_name_64 WHERE ship = 'fearless'"}
+{"id": "sc-14614", "prediction": "SELECT character FROM table_name_26 WHERE category = 'best dramatic performance'", "raw": "SELECT character FROM table_name_26 WHERE category = 'best dramatic performance'"}
+{"id": "sc-5421", "prediction": "SELECT regionalliga_nord FROM table_14242137_11 WHERE regionalliga_s\u00fcd = '1. fc nuremberg spvgg greuther f\u00fcrth'", "raw": "SELECT regionalliga_nord FROM table_14242137_11 WHERE regionalliga_s\u00fcd = '1. fc nuremberg spvgg greuther f\u00fcrth'"}
+{"id": "sc-40518", "prediction": "SELECT DISTINCT state_name FROM table_287659_2 WHERE regional_page__number IN ('1', '5-7', '9-11', '13-15')", "raw": "SELECT DISTINCT state_name FROM table_287659_2 WHERE regional_page__number IN ('1', '5-7', '9-11', '13-15')"}
+{"id": "sc-12894", "prediction": "SELECT date FROM table_name_6 WHERE week > 5 AND attendance = 54803", "raw": "SELECT date FROM table_name_6 WHERE week > 5 AND attendance = 54803"}
+{"id": "sc-53230", "prediction": "SELECT SUM(sample_size) FROM table_name_59 WHERE margin_of_error > 4.5", "raw": "SELECT SUM(sample_size) FROM table_name_59 WHERE margin_of_error > 4.5"}
+{"id": "sc-46263", "prediction": "outcome = \"win\" AND opponent = \"yvonne vermaak\"", "raw": "outcome = \"win\" AND opponent = \"yvonne vermaak\""}
+{"id": "sc-23738", "prediction": "SELECT loss FROM table_name_27 WHERE gain < 1571 AND long < 47 AND avg_g = 36.4", "raw": "SELECT loss FROM table_name_27 WHERE gain < 1571 AND long < 47 AND avg_g = 36.4"}
+{"id": "sc-26785", "prediction": "year = '2019' AND rank = '31'", "raw": "year = '2019' AND rank = '31'"}
+{"id": "sc-17184", "prediction": "SELECT tonnage FROM table_name_54 WHERE u_boats_destroyed__kuk_ = '2' AND ships_sunk__pola_ IS NULL", "raw": "SELECT tonnage FROM table_name_54 WHERE u_boats_destroyed__kuk_ = '2' AND ships_sunk__pola_ IS NULL"}
+{"id": "sc-30992", "prediction": "SELECT current_streak FROM table_15740666_6 WHERE last_meeting = '12/05/1987'", "raw": "SELECT current_streak FROM table_15740666_6 WHERE last_meeting = '12/05/1987'"}
+{"id": "sc-31596", "prediction": "SELECT venue FROM table_1670921_1 WHERE batting_partners = 'Mahela Jayawardene' AND batting_partners = 'Prasanna Jayawardene'", "raw": "SELECT venue FROM table_1670921_1 WHERE batting_partners = 'Mahela Jayawardene' AND batting_partners = 'Prasanna Jayawardene'"}
+{"id": "sc-14423", "prediction": "SELECT flag FROM table_name_52 WHERE name = 'Terkoeli'", "raw": "SELECT flag FROM table_name_52 WHERE name = 'Terkoeli'"}
+{"id": "sc-20545", "prediction": "SELECT location FROM table_24195232_1 WHERE founded = '1957'", "raw": "SELECT location FROM table_24195232_1 WHERE founded = '1957'"}
+{"id": "sc-64580", "prediction": "SELECT COUNT(park_name) FROM table_name_77 WHERE park_name = 'beltzville state park'", "raw": "SELECT COUNT(park_name) FROM table_name_77 WHERE park_name = 'beltzville state park'"}
+{"id": "sc-43748", "prediction": "SELECT earnings___$__ FROM table_name_40 WHERE player = 'Tiger Woods'", "raw": "SELECT earnings___$__ FROM table_name_40 WHERE player = 'Tiger Woods'"}
+{"id": "sc-66620", "prediction": "SELECT AVG(goals_for) FROM table_name_99 WHERE losses > 12 AND wins > 3 AND draws > 10 AND points < 29", "raw": "SELECT AVG(goals_for) FROM table_name_99 WHERE losses > 12 AND wins > 3 AND draws > 10 AND points < 29"}
+{"id": "sc-27480", "prediction": "SELECT date_of_appointment FROM table_11207040_6 WHERE outgoing_manager = 'Colin Hendry'", "raw": "SELECT date_of_appointment FROM table_11207040_6 WHERE outgoing_manager = 'Colin Hendry'"}
+{"id": "sc-19404", "prediction": "SELECT MIN(first_elected) FROM table_1342249_5", "raw": "SELECT MIN(first_elected) FROM table_1342249_5"}
+{"id": "sc-53850", "prediction": "SELECT MIN(year) FROM table_name_82 WHERE best_finish = 't-65'", "raw": "SELECT MIN(year) FROM table_name_82 WHERE best_finish = 't-65'"}
+{"id": "sc-18391", "prediction": "SELECT game_site FROM table_name_88 WHERE result = \"w 20-14\"", "raw": "SELECT game_site FROM table_name_88 WHERE result = \"w 20-14\""}
+{"id": "sc-59881", "prediction": "SELECT crowd FROM table_name_88 WHERE venue = 'Princes Park'", "raw": "SELECT crowd FROM table_name_88 WHERE venue = 'Princes Park'"}
+{"id": "sc-16518", "prediction": "SELECT games_played FROM table_name_58 WHERE wins = '13' AND goals_conceded = '45'", "raw": "SELECT games_played FROM table_name_58 WHERE wins = '13' AND goals_conceded = '45'"}
+{"id": "sc-2257", "prediction": "SELECT Date_Claim_Made, Date_Claim_Settled FROM Claims WHERE Amount_Claimed > (SELECT AVG(Amount_Claimed) FROM Claims)", "raw": "SELECT Date_Claim_Made, Date_Claim_Settled FROM Claims WHERE Amount_Claimed > (SELECT AVG(Amount_Claimed) FROM Claims)"}
+{"id": "sc-5409", "prediction": "SELECT lmp2_winning_team FROM table_14154271_2 WHERE rnd = 'J' AND lmp2_winning_team IN ('Jeroen Bleekemolen')", "raw": "SELECT lmp2_winning_team FROM table_14154271_2 WHERE rnd = 'J' AND lmp2_winning_team IN ('Jeroen Bleekemolen')"}
+{"id": "sc-50745", "prediction": "home_team = \"Oxford United\" AND away_team = \"Oxford United\"", "raw": "home_team = \"Oxford United\" AND away_team = \"Oxford United\""}
+{"id": "sc-16484", "prediction": "SELECT T1.birth FROM table_name_74 AS T1 JOIN (\n    SELECT birth, rank FROM table_name_74 WHERE T1.birth >= 1873 AND T1.rank > 28\n) AS T2 ON T1.birth = T2.birth", "raw": "SELECT T1.birth FROM table_name_74 AS T1 JOIN (\n    SELECT birth, rank FROM table_name_74 WHERE T1.birth >= 1873 AND T1.rank > 28\n) AS T2 ON T1.birth = T2.birth"}
+{"id": "sc-31638", "prediction": "SELECT driver___passenger FROM table_16729457_17 WHERE position = '4'", "raw": "SELECT driver___passenger FROM table_16729457_17 WHERE position = '4'"}
+{"id": "sc-75399", "prediction": "SELECT year FROM table_name_1 WHERE director = 'Soroush Sehat'", "raw": "SELECT year FROM table_name_1 WHERE director = 'Soroush Sehat'"}
+{"id": "sc-41040", "prediction": "SELECT `price__usd_` FROM table_29778616_1 WHERE model = 'pq32mu'", "raw": "SELECT `price__usd_` FROM table_29778616_1 WHERE model = 'pq32mu'"}
+{"id": "sc-59374", "prediction": "SELECT attendance FROM table_name_18 WHERE date = '1975-11-16'", "raw": "SELECT attendance FROM table_name_18 WHERE date = '1975-11-16'"}
+{"id": "sc-18789", "prediction": "SELECT english_title FROM table_name_68 WHERE year = '1984' AND country = 'Sweden'", "raw": "SELECT english_title FROM table_name_68 WHERE year = '1984' AND country = 'Sweden'"}
+{"id": "sc-42144", "prediction": "SELECT state FROM table_name_27 WHERE host = 'University of Tennessee'", "raw": "SELECT state FROM table_name_27 WHERE host = 'University of Tennessee'"}
+{"id": "sc-2699", "prediction": "SELECT LName FROM STUDENT WHERE Sex = 'F' ORDER BY Age DESC LIMIT 1", "raw": "SELECT LName FROM STUDENT WHERE Sex = 'F' ORDER BY Age DESC LIMIT 1"}
+{"id": "sc-11623", "prediction": "SELECT date FROM table_name_46 WHERE tournament = 'Transitions Championship'", "raw": "SELECT date FROM table_name_46 WHERE tournament = 'Transitions Championship'"}
+{"id": "sc-38454", "prediction": "SELECT COUNT(DISTINCT starts) FROM table_2622469_1 WHERE avg_finish = '17.9'", "raw": "SELECT COUNT(DISTINCT starts) FROM table_2622469_1 WHERE avg_finish = '17.9'"}
+{"id": "sc-34892", "prediction": "winning_time__km_rate_ = '2.94'", "raw": "winning_time__km_rate_ = '2.94'"}
+{"id": "sc-9342", "prediction": "SELECT competition FROM table_name_94 WHERE venue = 'Bangkok'", "raw": "SELECT competition FROM table_name_94 WHERE venue = 'Bangkok'"}
+{"id": "sc-61034", "prediction": "SELECT venue FROM table_name_40 WHERE home_team = 'Melbourne'", "raw": "SELECT venue FROM table_name_40 WHERE home_team = 'Melbourne'"}
+{"id": "sc-75331", "prediction": "SELECT attendance FROM table_name_86 WHERE date = '2019-05-26'", "raw": "SELECT attendance FROM table_name_86 WHERE date = '2019-05-26'"}
+{"id": "sc-8785", "prediction": "SELECT terminus FROM table_name_1 WHERE line = \"10\"", "raw": "SELECT terminus FROM table_name_1 WHERE line = \"10\""}
+{"id": "sc-64800", "prediction": "SELECT home_team FROM table_name_57 WHERE venue = 'glenferrie oval'", "raw": "SELECT home_team FROM table_name_57 WHERE venue = 'glenferrie oval'"}
+{"id": "sc-35138", "prediction": "SELECT COUNT(dfb_pokal) FROM table_22167196_1 WHERE player = 'Kevin Prince Boateng'", "raw": "SELECT COUNT(dfb_pokal) FROM table_22167196_1 WHERE player = 'Kevin Prince Boateng'"}
+{"id": "sc-9481", "prediction": "SELECT tournament FROM table_name_5 WHERE location = 'Colorado'", "raw": "SELECT tournament FROM table_name_5 WHERE location = 'Colorado'"}
+{"id": "sc-66470", "prediction": "SELECT SUM(losses) FROM table_name_42 WHERE wins > 1017 AND against > 12", "raw": "SELECT SUM(losses) FROM table_name_42 WHERE wins > 1017 AND against > 12"}
+{"id": "sc-75600", "prediction": "SELECT stage FROM table_name_71 WHERE mountains_classification = 'Pascal Richard' AND winner = 'Vladimir Poulnikov'", "raw": "SELECT stage FROM table_name_71 WHERE mountains_classification = 'Pascal Richard' AND winner = 'Vladimir Poulnikov'"}
+{"id": "sc-46240", "prediction": "SELECT AVG(round) FROM table_name_37 WHERE winner = \"Rafael Cavalcante\"", "raw": "SELECT AVG(round) FROM table_name_37 WHERE winner = \"Rafael Cavalcante\""}
+{"id": "sc-12406", "prediction": "surface = \"march 1\"", "raw": "surface = \"march 1\""}
+{"id": "sc-68443", "prediction": "SELECT date FROM table_name_32 WHERE result = 'bye'", "raw": "SELECT date FROM table_name_32 WHERE result = 'bye'"}
+{"id": "sc-30868", "prediction": "SELECT birthplace FROM table_1557974_1 WHERE debut LIKE '2002-7%'", "raw": "SELECT birthplace FROM table_1557974_1 WHERE debut LIKE '2002-7%'"}
+{"id": "sc-53167", "prediction": "win_percentage = 0.667", "raw": "win_percentage = 0.667"}
+{"id": "sc-23661", "prediction": "SELECT winner_or_2nd FROM table_name_41 WHERE weight > 7.3 AND result = \"-\"", "raw": "SELECT winner_or_2nd FROM table_name_41 WHERE weight > 7.3 AND result = \"-\";"}
+{"id": "sc-55839", "prediction": "SELECT high_rebounds FROM table_name_55 WHERE score = \"l 85\u2013102 (ot)\"", "raw": "SELECT high_rebounds FROM table_name_55 WHERE score = \"l 85\u2013102 (ot)\""}
+{"id": "sc-51408", "prediction": "SELECT MIN(issue) FROM table_name_12 WHERE writer = 'Arnie Kogen' AND DATE BETWEEN '1964-12-01' AND '1964-12-31'", "raw": "SELECT MIN(issue) FROM table_name_12 WHERE writer = 'Arnie Kogen' AND DATE BETWEEN '1964-12-01' AND '1964-12-31'"}
+{"id": "sc-54845", "prediction": "SELECT points FROM table_name_24 WHERE points_for = \"60\" AND club = \"Bedwas RFC\"", "raw": "SELECT points FROM table_name_24 WHERE points_for = \"60\" AND club = \"Bedwas RFC\""}
+{"id": "sc-16975", "prediction": "SELECT to_par FROM table_name_65 WHERE country = 'Canada'", "raw": "SELECT to_par FROM table_name_65 WHERE country = 'Canada'"}
+{"id": "sc-1686", "prediction": "SELECT COUNT(DISTINCT payment_method) FROM customers", "raw": "SELECT COUNT(DISTINCT payment_method) FROM customers"}
+{"id": "sc-27273", "prediction": "SELECT original_air_date FROM table_10718631_2 WHERE no_in_series = '113'", "raw": "SELECT original_air_date FROM table_10718631_2 WHERE no_in_series = '113'"}
+{"id": "sc-46296", "prediction": "SELECT owner FROM table_name_65 WHERE frequency = 'FM 92.1'", "raw": "SELECT owner FROM table_name_65 WHERE frequency = 'FM 92.1'"}
+{"id": "sc-8692", "prediction": "SELECT crowd FROM table_name_44 WHERE venue = 'Lake Oval'", "raw": "SELECT crowd FROM table_name_44 WHERE venue = 'Lake Oval'"}
+{"id": "sc-56131", "prediction": "SELECT agg FROM table_name_63 WHERE team_1 = \"CD El\u00e1 Nguema\"", "raw": "SELECT agg FROM table_name_63 WHERE team_1 = \"CD El\u00e1 Nguema\""}
+{"id": "sc-68754", "prediction": "SELECT `score` FROM `table_name_72` WHERE `player` = 'darren clarke' AND `money___$__` = '$112,500'", "raw": "SELECT `score` FROM `table_name_72` WHERE `player` = 'darren clarke' AND `money___$__` = '$112,500'"}
+{"id": "sc-8587", "prediction": "SELECT games FROM table_name_18 WHERE event = 'men's 5000 metres'", "raw": "SELECT games FROM table_name_18 WHERE event = 'men's 5000 metres'"}
+{"id": "sc-72942", "prediction": "SELECT YEAR(laid_down) AS year FROM table_name_17 WHERE name = 'USS Cambridge'", "raw": "SELECT YEAR(laid_down) AS year FROM table_name_17 WHERE name = 'USS Cambridge'"}
+{"id": "sc-72137", "prediction": "SELECT album_number FROM table_name_66 WHERE chinese__simplified_ = '\u60c5\u6b4c\u6ca1\u6709\u544a\u8bc9\u4f60'", "raw": "SELECT album_number FROM table_name_66 WHERE chinese__simplified_ = '\u60c5\u6b4c\u6ca1\u6709\u544a\u8bc9\u4f60'"}
+{"id": "sc-60534", "prediction": "SELECT leading_scorer FROM table_name_99 WHERE date = '2008-01-09'", "raw": "SELECT leading_scorer FROM table_name_99 WHERE date = '2008-01-09'"}
+{"id": "sc-52085", "prediction": "SELECT club FROM table_name_69 WHERE lead = 'Jamie Korab'", "raw": "SELECT club FROM table_name_69 WHERE lead = 'Jamie Korab'"}
+{"id": "sc-36964", "prediction": "SELECT T1.team__number2 FROM table_24426072_1 AS T1 INNER JOIN teams AS T2 ON T1.team__number2 = T2.team_number WHERE T2.name = 'Fluminense' AND T1.fluidesport_leg = 2", "raw": "SELECT T1.team__number2 FROM table_24426072_1 AS T1 INNER JOIN teams AS T2 ON T1.team__number2 = T2.team_number WHERE T2.name = 'Fluminense' AND T1.fluidesport_leg = 2"}
+{"id": "sc-8578", "prediction": "SELECT surface FROM table_name_6 WHERE date = '1999-06-14' AND tournament = 'eastbourne'", "raw": "SELECT surface FROM table_name_6 WHERE date = '1999-06-14' AND tournament = 'eastbourne'"}
+{"id": "sc-74738", "prediction": "SELECT competition FROM table_name_17 WHERE year = '2003'", "raw": "SELECT competition FROM table_name_17 WHERE year = '2003'"}
+{"id": "sc-32068", "prediction": "SELECT COUNT(game) FROM table_17288845_7 WHERE date = '01/19'", "raw": "SELECT COUNT(game) FROM table_17288845_7 WHERE date = '01/19'"}
+{"id": "sc-13162", "prediction": "SELECT pinnacle_height_planned FROM table_name_4 WHERE name = 'Goldin Finance 117' AND country = 'China'", "raw": "SELECT pinnacle_height_planned FROM table_name_4 WHERE name = 'Goldin Finance 117' AND country = 'China'"}
+{"id": "sc-17131", "prediction": "SELECT SUM(cuts_made) FROM table_name_47 WHERE events > 3", "raw": "SELECT SUM(cuts_made) FROM table_name_47 WHERE events > 3"}
+{"id": "sc-28401", "prediction": "SELECT `mens_doubles` FROM table_12164707_1 WHERE `womens_singles` = 'Guo Xin'", "raw": "SELECT `mens_doubles` FROM table_12164707_1 WHERE `womens_singles` = 'Guo Xin'"}
+{"id": "sc-27567", "prediction": "SELECT nationality FROM table_11303072_9 WHERE player = 'Adam Gilchrist'", "raw": "SELECT nationality FROM table_11303072_9 WHERE player = 'Adam Gilchrist'"}
+{"id": "sc-28946", "prediction": "SELECT region_1 FROM table_1337525_1 WHERE region_4 = 'TBA' AND complete_series = 'Eighth Series'", "raw": "SELECT region_1 FROM table_1337525_1 WHERE region_4 = 'TBA' AND complete_series = 'Eighth Series'"}
+{"id": "sc-9072", "prediction": "name VARCHAR", "raw": "name VARCHAR"}
+{"id": "sc-60768", "prediction": "SELECT written_by FROM table_name_27 WHERE season_no = '49' AND series_no > '4'", "raw": "SELECT written_by FROM table_name_27 WHERE season_no = '49' AND series_no > '4'"}
+{"id": "sc-33284", "prediction": "SELECT starts FROM table_1909647_2 WHERE avg_finish = '19.3'", "raw": "SELECT starts FROM table_1909647_2 WHERE avg_finish = '19.3'"}
+{"id": "sc-36748", "prediction": "SELECT MIN(attendance) AS min_attendance FROM table_24126518_2 WHERE final_score = 'L 36-1'", "raw": "SELECT MIN(attendance) AS min_attendance FROM table_24126518_2 WHERE final_score = 'L 36-1'"}
+{"id": "sc-22437", "prediction": "result = \"bye\"", "raw": "result = \"bye\""}
+{"id": "sc-48247", "prediction": "SELECT leading_scorer FROM table_name_18 WHERE record = '9-6'", "raw": "SELECT leading_scorer FROM table_name_18 WHERE record = '9-6'"}
+{"id": "sc-43783", "prediction": "SELECT player FROM table_name_18 WHERE position = 'forward'", "raw": "SELECT player FROM table_name_18 WHERE position = 'forward'"}
+{"id": "sc-58745", "prediction": "SELECT state FROM table_name_33 WHERE peak_population__year_ = '134995'", "raw": "SELECT state FROM table_name_33 WHERE peak_population__year_ = '134995'"}
+{"id": "sc-39040", "prediction": "SELECT opponent FROM table_26847237_3 WHERE score = \"37 - 28\"", "raw": "SELECT opponent FROM table_26847237_3 WHERE score = \"37 - 28\""}
+{"id": "sc-50249", "prediction": "SELECT `team` FROM `table_name_30` WHERE `player` = 'Deshaun Foster' AND YEAR(`year`) = 2007", "raw": "SELECT `team` FROM `table_name_30` WHERE `player` = 'Deshaun Foster' AND YEAR(`year`) = 2007"}
+{"id": "sc-59415", "prediction": "SELECT COUNT(penanced) FROM table_name_3 WHERE number_of_autos_da_f\u00e9_with_known_sentences = 71", "raw": "SELECT COUNT(penanced) FROM table_name_3 WHERE number_of_autos_da_f\u00e9_with_known_sentences = 71"}
+{"id": "sc-10898", "prediction": "SELECT MAX(copa_sudamericana) FROM table_name_80 WHERE others < 0", "raw": "SELECT MAX(copa_sudamericana) FROM table_name_80 WHERE others < 0"}
+{"id": "sc-56930", "prediction": "SELECT event FROM table_name_9 WHERE opponent = 'yuji hisamatsu'", "raw": "SELECT event FROM table_name_9 WHERE opponent = 'yuji hisamatsu'"}
+{"id": "sc-276", "prediction": "SELECT major, COUNT(*) FROM Student", "raw": "SELECT major, COUNT(*) FROM Student"}
+{"id": "sc-1359", "prediction": "SELECT DISTINCT Starting_Year FROM technician WHERE Team = 'CLE' OR Team = 'CWS'", "raw": "SELECT DISTINCT Starting_Year FROM technician WHERE Team = 'CLE' OR Team = 'CWS'"}
+{"id": "sc-63540", "prediction": "SELECT crowd FROM table_name_86 WHERE venue = 'moorabbin oval'", "raw": "SELECT crowd FROM table_name_86 WHERE venue = 'moorabbin oval'"}
+{"id": "sc-64198", "prediction": "SELECT tries FROM table_name_49 WHERE player = \"Paul Sykes\" AND points = \"0\"", "raw": "SELECT tries FROM table_name_49 WHERE player = \"Paul Sykes\" AND points = \"0\""}
+{"id": "sc-51122", "prediction": "SELECT COUNT(attendance) FROM table_name_28 WHERE result = 'l 26-21'", "raw": "SELECT COUNT(attendance) FROM table_name_28 WHERE result = 'l 26-21'"}
+{"id": "sc-46743", "prediction": "SELECT AVG(chart_no) FROM table_name_97 WHERE date = '11-1965'", "raw": "SELECT AVG(chart_no) FROM table_name_97 WHERE date = '11-1965'"}
+{"id": "sc-31591", "prediction": "SELECT MAX(stolen_ends_against) AS max FROM table_16684420_2 WHERE country = 'Japan'", "raw": "SELECT MAX(stolen_ends_against) AS max FROM table_16684420_2 WHERE country = 'Japan'"}
+{"id": "sc-34745", "prediction": "SELECT sales_breakdown FROM table_21458142_1 WHERE publisher = 'Nintendo' AND title = 'Mario Kart DS'", "raw": "SELECT sales_breakdown FROM table_21458142_1 WHERE publisher = 'Nintendo' AND title = 'Mario Kart DS'"}
+{"id": "sc-60877", "prediction": "score = \"10-4\" AND decision = \"Smith\" AND visitor = \"Colorado\"", "raw": "score = \"10-4\" AND decision = \"Smith\" AND visitor = \"Colorado\""}
+{"id": "sc-10165", "prediction": "SELECT time FROM table_name_12 WHERE jockey = 'cornelio velasquez'", "raw": "SELECT time FROM table_name_12 WHERE jockey = 'cornelio velasquez'"}
+{"id": "sc-1240", "prediction": "SELECT Join_Year FROM pilot ORDER BY Rank DESC LIMIT 1", "raw": "SELECT Join_Year FROM pilot ORDER BY Rank DESC LIMIT 1"}
+{"id": "sc-40607", "prediction": "SELECT date FROM table_28898974_3 WHERE winner = 'Edward Shaw'", "raw": "SELECT date FROM table_28898974_3 WHERE winner = 'Edward Shaw'"}
+{"id": "sc-35764", "prediction": "SELECT location_attendance FROM table_22883210_10 WHERE team = 'Minnesota'", "raw": "SELECT location_attendance FROM table_22883210_10 WHERE team = 'Minnesota'"}
+{"id": "sc-75707", "prediction": "SELECT record FROM table_name_93 WHERE visitor = \"Tampa Bay\"", "raw": "SELECT record FROM table_name_93 WHERE visitor = \"Tampa Bay\""}
+{"id": "sc-16438", "prediction": "SELECT lost FROM table_name_16 WHERE points_for = \"205\"", "raw": "SELECT lost FROM table_name_16 WHERE points_for = \"205\""}
+{"id": "sc-70530", "prediction": "SELECT SUM(rank) FROM table_name_24 WHERE country = 'South Africa' AND notes LIKE '%fc%'", "raw": "SELECT SUM(rank) FROM table_name_24 WHERE country = 'South Africa' AND notes LIKE '%fc%'"}
+{"id": "sc-46738", "prediction": "SELECT gross_tonnage FROM table_name_35 WHERE delivery_date = '2001-01-01'", "raw": "SELECT gross_tonnage FROM table_name_35 WHERE delivery_date = '2001-01-01'"}
+{"id": "sc-20802", "prediction": "SELECT opponent_in_the_final FROM table_26202788_7 WHERE championship = 'Indian Wells, United States' AND opponent_in_the_final IN ('Final')", "raw": "SELECT opponent_in_the_final FROM table_26202788_7 WHERE championship = 'Indian Wells, United States' AND opponent_in_the_final IN ('Final')"}
+{"id": "sc-41776", "prediction": "SELECT m Martyred FROM table_name_64 WHERE name = 'John Hoan Trinh Doan' AND YEAR(CANONISED) > 1988 AND YEAR(BEATIFIED) < 1909", "raw": "SELECT m Martyred FROM table_name_64 WHERE name = 'John Hoan Trinh Doan' AND YEAR(CANONISED) > 1988 AND YEAR(BEATIFIED) < 1909"}
+{"id": "sc-2718", "prediction": "SELECT CName FROM COURSE WHERE Credits IN (3) OR Credits = 1 AND Hours = 4", "raw": "SELECT CName FROM COURSE WHERE Credits IN (3) OR Credits = 1 AND Hours = 4"}
+{"id": "sc-70045", "prediction": "SELECT AVG(silver) FROM table_name_86 WHERE bronze < 0", "raw": "SELECT AVG(silver) FROM table_name_86 WHERE bronze < 0"}
+{"id": "sc-22864", "prediction": "SELECT country FROM table_name_48 WHERE television_service = 'Reteconomy'", "raw": "SELECT country FROM table_name_48 WHERE television_service = 'Reteconomy'"}
+{"id": "sc-54037", "prediction": "SELECT diameter__km_ FROM table_name_30 WHERE name = 'kaiwan fluctus'", "raw": "SELECT diameter__km_ FROM table_name_30 WHERE name = 'kaiwan fluctus'"}
+{"id": "sc-17695", "prediction": "SELECT years FROM table_name_31 WHERE authority = 'state' AND name = 'Tahunanui'", "raw": "SELECT years FROM table_name_31 WHERE authority = 'state' AND name = 'Tahunanui'"}
+{"id": "sc-47372", "prediction": "SELECT loss FROM table_name_24 WHERE record = \"22-24\"", "raw": "SELECT loss FROM table_name_24 WHERE record = \"22-24\""}
+{"id": "sc-65798", "prediction": "SELECT SUM(ave__no) FROM table_name_98 WHERE name = 'albula alps' AND height__m_ > 3418", "raw": "SELECT SUM(ave__no) FROM table_name_98 WHERE name = 'albula alps' AND height__m_ > 3418"}
+{"id": "sc-49729", "prediction": "SELECT date FROM table_name_47 WHERE nation = 'Russia' AND venue = 'Madrid, Spain'", "raw": "SELECT date FROM table_name_47 WHERE nation = 'Russia' AND venue = 'Madrid, Spain'"}
+{"id": "sc-38997", "prediction": "wins = 12", "raw": "wins = 12"}
+{"id": "sc-16826", "prediction": "SELECT rank FROM table_name_33 WHERE nationality = 'Denmark'", "raw": "SELECT rank FROM table_name_33 WHERE nationality = 'Denmark'"}
+{"id": "sc-2070", "prediction": "SELECT employee_id, first_name, last_name FROM employees WHERE department_id = ANY(SELECT department_id FROM employees WHERE first_name LIKE '%T')", "raw": "SELECT employee_id, first_name, last_name FROM employees WHERE department_id = ANY(SELECT department_id FROM employees WHERE first_name LIKE '%T')"}
+{"id": "sc-70393", "prediction": "SELECT school FROM table_name_76 WHERE ihsaa_class = 'aaa' AND mascot = 'saints'", "raw": "SELECT school FROM table_name_76 WHERE ihsaa_class = 'aaa' AND mascot = 'saints'"}
+{"id": "sc-7524", "prediction": "SELECT position FROM table_25085059_1 WHERE pick__number = '6'", "raw": "SELECT position FROM table_25085059_1 WHERE pick__number = '6'"}
+{"id": "sc-23074", "prediction": "SELECT MAX(year_of_release) FROM table_name_98 WHERE title = 'death valley'", "raw": "SELECT MAX(year_of_release) FROM table_name_98 WHERE title = 'death valley'"}
+{"id": "sc-18518", "prediction": "SELECT pts FROM table_name_7 WHERE chassis = \"March 811\"", "raw": "SELECT pts FROM table_name_7 WHERE chassis = \"March 811\""}
+{"id": "sc-48921", "prediction": "SELECT winner FROM table_name_37 WHERE country = 'Scotland'", "raw": "SELECT winner FROM table_name_37 WHERE country = 'Scotland'"}
+{"id": "sc-63032", "prediction": "SELECT president FROM table_name_89 WHERE year BETWEEN '2002' AND '2003' AND (SELECT COUNT(*) FROM table_name_89 WHERE president = 'president') = 2", "raw": "SELECT president FROM table_name_89 WHERE year BETWEEN '2002' AND '2003' AND (SELECT COUNT(*) FROM table_name_89 WHERE president = 'president') = 2"}
+{"id": "sc-41852", "prediction": "SELECT home_team FROM table_name_85 WHERE venue = 'kardinia park'", "raw": "SELECT home_team FROM table_name_85 WHERE venue = 'kardinia park'"}
+{"id": "sc-21730", "prediction": "SELECT fastest_lap FROM table_name_76 WHERE circuit = 'Oschersleben' AND winning_team = 'Audi Sport Team ABT'", "raw": "SELECT fastest_lap FROM table_name_76 WHERE circuit = 'Oschersleben' AND winning_team = 'Audi Sport Team ABT'"}
+{"id": "sc-30174", "prediction": "SELECT channel FROM table_14523485_9 WHERE top_prize = '\u20ac100,000'", "raw": "SELECT channel FROM table_14523485_9 WHERE top_prize = '\u20ac100,000'"}
+{"id": "sc-25284", "prediction": "SELECT MIN(gold) FROM table_name_4 WHERE silver > 4 AND bronze > 4", "raw": "SELECT MIN(gold) FROM table_name_4 WHERE silver > 4 AND bronze > 4"}
+{"id": "sc-42774", "prediction": "SELECT signal_quality FROM table_name_96 WHERE station_call_letters = 'KCAL-DT'", "raw": "SELECT signal_quality FROM table_name_96 WHERE station_call_letters = 'KCAL-DT'"}
+{"id": "sc-33736", "prediction": "SELECT COUNT(australian_open) FROM table_197638_6 WHERE player = 'Roy Emerson'", "raw": "SELECT COUNT(australian_open) FROM table_197638_6 WHERE player = 'Roy Emerson'"}
+{"id": "sc-62364", "prediction": "home_team = \"Footscray\"", "raw": "home_team = \"Footscray\""}
+{"id": "sc-71130", "prediction": "SELECT DISTINCT school FROM table_name_27 WHERE enrollment > 533 AND ihsaa_football_class = 'aa'", "raw": "SELECT DISTINCT school FROM table_name_27 WHERE enrollment > 533 AND ihsaa_football_class = 'aa'"}
+{"id": "sc-27216", "prediction": "SELECT `damage__usd_` FROM table_10602294_1 WHERE pressure = '1003hPa' AND pressure IN ('29.62inHg')", "raw": "SELECT `damage__usd_` FROM table_10602294_1 WHERE pressure = '1003hPa' AND pressure IN ('29.62inHg')"}
+{"id": "sc-43028", "prediction": "SELECT replaced_by FROM table_name_2 WHERE team = 'bolton wanderers'", "raw": "SELECT replaced_by FROM table_name_2 WHERE team = 'bolton wanderers'"}
+{"id": "sc-62640", "prediction": "SELECT MAX(ngc_number) FROM table_name_5 WHERE declination___j2000__ = '\u00b004\u203258\u2033' AND apparent_magnitude > 7.3", "raw": "SELECT MAX(ngc_number) FROM table_name_5 WHERE declination___j2000__ = '\u00b004\u203258\u2033' AND apparent_magnitude > 7.3"}
+{"id": "sc-29957", "prediction": "SELECT MAX(points) FROM table_14070062_4 WHERE try_bonus = '48'", "raw": "SELECT MAX(points) FROM table_14070062_4 WHERE try_bonus = '48'"}
+{"id": "sc-45747", "prediction": "SELECT opponent FROM table_name_89 WHERE score = '6-3, 6-3'", "raw": "SELECT opponent FROM table_name_89 WHERE score = '6-3, 6-3'"}
+{"id": "sc-24076", "prediction": "SELECT COUNT(gold) FROM table_name_88 WHERE bronze = 8", "raw": "SELECT COUNT(gold) FROM table_name_88 WHERE bronze = 8"}
+{"id": "sc-60195", "prediction": "SELECT COUNT(position) FROM table_name_12 WHERE goal_difference > -17 AND played < 38", "raw": "SELECT COUNT(position) FROM table_name_12 WHERE goal_difference > -17 AND played < 38"}
+{"id": "sc-62778", "prediction": "SELECT fleet_number_s_ FROM table_name_59 WHERE quantity_made = '1'", "raw": "SELECT fleet_number_s_ FROM table_name_59 WHERE quantity_made = '1'"}
+{"id": "sc-41490", "prediction": "SELECT date FROM table_name_37 WHERE time___et__ = '1:00 PM' AND game_site = 'arrowhead stadium'", "raw": "SELECT date FROM table_name_37 WHERE time___et__ = '1:00 PM' AND game_site = 'arrowhead stadium'"}
+{"id": "sc-60566", "prediction": "SELECT MIN(attendance) FROM table_name_1 WHERE date = '2023-02-05'", "raw": "SELECT MIN(attendance) FROM table_name_1 WHERE date = '2023-02-05'"}
+{"id": "sc-32066", "prediction": "SELECT location_attendance, high_assists FROM table_17288825_7 WHERE high_assists = 'Rafer Alston' AND location_attendance = '10'", "raw": "SELECT location_attendance, high_assists FROM table_17288825_7 WHERE high_assists = 'Rafer Alston' AND location_attendance = '10'"}
+{"id": "sc-46289", "prediction": "date = \"2018-04-15\" AND results\u00b9 = \"3:0\"", "raw": "date = \"2018-04-15\" AND results\u00b9 = \"3:0\""}
+{"id": "sc-19352", "prediction": "SELECT results FROM table_1341453_20 WHERE incumbent = 'Jim McCrery'", "raw": "SELECT results FROM table_1341453_20 WHERE incumbent = 'Jim McCrery'"}
+{"id": "sc-27366", "prediction": "SELECT player_name FROM table_10966926_2 WHERE college = 'Oklahoma'", "raw": "SELECT player_name FROM table_10966926_2 WHERE college = 'Oklahoma'"}
+{"id": "sc-20520", "prediction": "SELECT frequency FROM table_24018112_1 WHERE model__list_ = 'L34xx'", "raw": "SELECT frequency FROM table_24018112_1 WHERE model__list_ = 'L34xx'"}
+{"id": "sc-53610", "prediction": "SELECT target FROM table_name_90 WHERE antibody = 'rituximab'", "raw": "SELECT target FROM table_name_90 WHERE antibody = 'rituximab'"}
+{"id": "sc-19986", "prediction": "SELECT MAX(legs_lost) FROM table_18621456_22", "raw": "SELECT MAX(legs_lost) FROM table_18621456_22"}
+{"id": "sc-29868", "prediction": "tries_against = \"10\"", "raw": "tries_against = \"10\""}
+{"id": "sc-35301", "prediction": "SELECT DISTINCT team_classification FROM table_22410316_17 WHERE combativity_prize = 'Ricardo Serrano'", "raw": "SELECT DISTINCT team_classification FROM table_22410316_17 WHERE combativity_prize = 'Ricardo Serrano'"}
+{"id": "sc-49758", "prediction": "SELECT AVG(floors) FROM table_name_59 WHERE name = 'Venetian tower'", "raw": "SELECT AVG(floors) FROM table_name_59 WHERE name = 'Venetian tower'"}
+{"id": "sc-4120", "prediction": "SELECT document_id, template_id, Document_Description FROM Documents WHERE document_name = 'Robbin CV'", "raw": "SELECT document_id, template_id, Document_Description FROM Documents WHERE document_name = 'Robbin CV'"}
+{"id": "sc-66171", "prediction": "SELECT orebro FROM table_name_67 WHERE ume\u00e5 = 2", "raw": "SELECT orebro FROM table_name_67 WHERE ume\u00e5 = 2"}
+{"id": "sc-71126", "prediction": "SELECT score_in_the_final FROM table_name_24 WHERE date = '1993-03-22'", "raw": "SELECT score_in_the_final FROM table_name_24 WHERE date = '1993-03-22'"}
+{"id": "sc-49617", "prediction": "SELECT package_option FROM table_name_68 WHERE country = 'Italy' AND content = 'religione'", "raw": "SELECT package_option FROM table_name_68 WHERE country = 'Italy' AND content = 'religione'"}
+{"id": "sc-49929", "prediction": "SELECT season FROM table_name_65 WHERE losses = '30'", "raw": "SELECT season FROM table_name_65 WHERE losses = '30'"}
+{"id": "sc-17115", "prediction": "SELECT MAX(rank) FROM table_name_54 WHERE heat > 3 AND nationality = 'Switzerland'", "raw": "SELECT MAX(rank) FROM table_name_54 WHERE heat > 3 AND nationality = 'Switzerland'"}
+{"id": "sc-15050", "prediction": "time = \"01:43\"", "raw": "time = \"01:43\""}
+{"id": "sc-57687", "prediction": "SELECT played FROM table_name_55 WHERE team = \"cerro cor\u00e1\" AND losses > 4", "raw": "SELECT played FROM table_name_55 WHERE team = \"cerro cor\u00e1\" AND losses > 4"}
+{"id": "sc-69917", "prediction": "SELECT time FROM table_name_13 WHERE country = 'kazakhstan'", "raw": "SELECT time FROM table_name_13 WHERE country = 'kazakhstan'"}
+{"id": "sc-11887", "prediction": "MATCH (home_team:home_team) WHERE home_team = \"Wigan Athletic\" RETURN tie_no", "raw": "MATCH (home_team:home_team) WHERE home_team = \"Wigan Athletic\" RETURN tie_no"}
+{"id": "sc-472", "prediction": "SELECT COUNT(*) FROM CUSTOMER WHERE Email LIKE '%gmail.com%'", "raw": "SELECT COUNT(*) FROM CUSTOMER WHERE Email LIKE '%gmail.com%'"}
+{"id": "sc-19903", "prediction": "SELECT district FROM table_1805191_50 WHERE party = 'Democratic' AND first_elected = '1998'", "raw": "SELECT district FROM table_1805191_50 WHERE party = 'Democratic' AND first_elected = '1998'"}
+{"id": "sc-70937", "prediction": "SELECT capacity FROM table_name_37 WHERE class = '4c3h'", "raw": "SELECT capacity FROM table_name_37 WHERE class = '4c3h'"}
+{"id": "sc-30123", "prediction": "SELECT birth_date FROM table_14363116_1 WHERE shirt_no = '7'", "raw": "SELECT birth_date FROM table_14363116_1 WHERE shirt_no = '7'"}
+{"id": "sc-20935", "prediction": "SELECT DISTINCT team FROM table_27091128_3 WHERE replaced_by = 'Serhat G\u00fcller'", "raw": "SELECT DISTINCT team FROM table_27091128_3 WHERE replaced_by = 'Serhat G\u00fcller'"}
+{"id": "sc-14285", "prediction": "SELECT event FROM table_name_16 WHERE inductee_s_ = 'Jerry Lynn'", "raw": "SELECT event FROM table_name_16 WHERE inductee_s_ = 'Jerry Lynn'"}
+{"id": "sc-67689", "prediction": "home_team = \"Walsall\"", "raw": "home_team = \"Walsall\""}
+{"id": "sc-35354", "prediction": "SELECT T1.country FROM table_2248784_4 AS T1 JOIN countries AS T2 ON T1.country = T2.name WHERE T2.code = 'Iraq' AND T1.year = 2011 AND T1.gdp_ppb = 0", "raw": "SELECT T1.country FROM table_2248784_4 AS T1 JOIN countries AS T2 ON T1.country = T2.name WHERE T2.code = 'Iraq' AND T1.year = 2011 AND T1.gdp_ppb = 0"}
+{"id": "sc-61777", "prediction": "SELECT high_points FROM table_name_2 WHERE team = 'charlotte'", "raw": "SELECT high_points FROM table_name_2 WHERE team = 'charlotte'"}
+{"id": "sc-27809", "prediction": "SELECT COUNT(position) FROM table_11545282_6 WHERE player = 'Jim Farmer'", "raw": "SELECT COUNT(position) FROM table_11545282_6 WHERE player = 'Jim Farmer'"}
+{"id": "sc-9773", "prediction": "SELECT winner FROM table_name_76 WHERE tournament = 'H.E.B. Texas open'", "raw": "SELECT winner FROM table_name_76 WHERE tournament = 'H.E.B. Texas open'"}
+{"id": "sc-4325", "prediction": "SELECT Nationality FROM people GROUP BY Nationality ORDER BY COUNT(*) DESC LIMIT 1", "raw": "SELECT Nationality FROM people GROUP BY Nationality ORDER BY COUNT(*) DESC LIMIT 1"}
+{"id": "sc-39127", "prediction": "SELECT sat_21_aug FROM table_26986076_5 WHERE rank = \"8\"", "raw": "SELECT sat_21_aug FROM table_26986076_5 WHERE rank = \"8\""}
+{"id": "sc-54198", "prediction": "SELECT high_points FROM table_name_16 WHERE date = 'september 9'", "raw": "SELECT high_points FROM table_name_16 WHERE date = 'september 9'"}
+{"id": "sc-63283", "prediction": "SELECT AVG(average) FROM table_name_86 WHERE swimsuit < 9.32", "raw": "SELECT AVG(average) FROM table_name_86 WHERE swimsuit < 9.32"}
+{"id": "sc-65910", "prediction": "SELECT score FROM table_name_20 WHERE date = '2005-11-13'", "raw": "SELECT score FROM table_name_20 WHERE date = '2005-11-13'"}
+{"id": "sc-72866", "prediction": "SELECT call_sign FROM table_name_33 WHERE owner = 'ckua radio foundation'", "raw": "SELECT call_sign FROM table_name_33 WHERE owner = 'ckua radio foundation'"}
+{"id": "sc-17780", "prediction": "SELECT SUM(population_per_square_km) FROM table_name_97 WHERE population_112006 = '1.12006' AND population_per_square_km = '12.757'", "raw": "SELECT SUM(population_per_square_km) FROM table_name_97 WHERE population_112006 = '1.12006' AND population_per_square_km = '12.757'"}
+{"id": "sc-35140", "prediction": "SELECT location FROM table_22165661_3 WHERE score = \"2-1\"", "raw": "SELECT location FROM table_22165661_3 WHERE score = \"2-1\""}
+{"id": "sc-39594", "prediction": "SELECT MIN(members_lost) FROM table_27671835_3 WHERE net_change = \"-1\"", "raw": "SELECT MIN(members_lost) FROM table_27671835_3 WHERE net_change = \"-1\""}
+{"id": "sc-73897", "prediction": "SELECT MIN(league_cup) FROM table_name_9 WHERE championship = 4", "raw": "SELECT MIN(league_cup) FROM table_name_9 WHERE championship = 4"}
+{"id": "sc-15596", "prediction": "SELECT COUNT(wins) FROM table_name_52 WHERE top_10 = 2 AND events > 8 AND cuts_made > 6", "raw": "SELECT COUNT(wins) FROM table_name_52 WHERE top_10 = 2 AND events > 8 AND cuts_made > 6"}
+{"id": "sc-45315", "prediction": "SELECT visitor FROM table_name_94 WHERE date = 'april 8'", "raw": "SELECT visitor FROM table_name_94 WHERE date = 'april 8'"}
+{"id": "sc-27660", "prediction": "SELECT venue FROM table_1139835_9 WHERE premier = 'Essendon' AND attendance = 30824 AND YEAR(Year) = 1984", "raw": "SELECT venue FROM table_1139835_9 WHERE premier = 'Essendon' AND attendance = 30824 AND YEAR(Year) = 1984"}
+{"id": "sc-6946", "prediction": "SELECT manufacturer FROM table_22298383_1 WHERE average_speed__mph_ = '126.259'", "raw": "SELECT manufacturer FROM table_22298383_1 WHERE average_speed__mph_ = '126.259'"}
+{"id": "sc-2086", "prediction": "SELECT f_id FROM files WHERE formats = 'mp3'", "raw": "SELECT f_id FROM files WHERE formats = 'mp3'"}
+{"id": "sc-6823", "prediction": "SELECT week__number FROM table_21501518_1 WHERE theme = 'First Solo'", "raw": "SELECT week__number FROM table_21501518_1 WHERE theme = 'First Solo'"}
+{"id": "sc-35366", "prediction": "SELECT COUNT(world_rank) FROM table_2248991_2 WHERE nation = 'Nigeria'", "raw": "SELECT COUNT(world_rank) FROM table_2248991_2 WHERE nation = 'Nigeria'"}
+{"id": "sc-25733", "prediction": "time = \"2017-05-19 16:48:00\" AND rider = \"phil mcgurk\"", "raw": "time = \"2017-05-19 16:48:00\" AND rider = \"phil mcgurk\""}
+{"id": "sc-6340", "prediction": "SELECT minor_sponsors FROM table_187239_1 WHERE kit_manufacturer = \"Olympikus\" AND main_sponsor = \"Batavo\"", "raw": "SELECT minor_sponsors FROM table_187239_1 WHERE kit_manufacturer = \"Olympikus\" AND main_sponsor = \"Batavo\""}
+{"id": "sc-36365", "prediction": "SELECT COUNT(early_chalcolithic) FROM table_23537091_1 WHERE ubaid_period_in_mesopotamia = 'Hittite Middle Kingdom' AND ubaid_period_in_mesopotamia = 'New Kingdom of Egypt'", "raw": "SELECT COUNT(early_chalcolithic) FROM table_23537091_1 WHERE ubaid_period_in_mesopotamia = 'Hittite Middle Kingdom' AND ubaid_period_in_mesopotamia = 'New Kingdom of Egypt'"}
+{"id": "sc-65111", "prediction": "SELECT SUM(grid) FROM table_name_12 WHERE time_retired = '58.182' AND laps < 67", "raw": "SELECT SUM(grid) FROM table_name_12 WHERE time_retired = '58.182' AND laps < 67"}
+{"id": "sc-4382", "prediction": "SELECT Name FROM country WHERE SurfaceArea > ALL (SELECT SurfaceArea FROM country WHERE Continent = 'Europe')", "raw": "SELECT Name FROM country WHERE SurfaceArea > ALL (SELECT SurfaceArea FROM country WHERE Continent = 'Europe')"}
+{"id": "sc-4192", "prediction": "SELECT COUNT(*) FROM players", "raw": "SELECT COUNT(*) FROM players"}
+{"id": "sc-28243", "prediction": "SELECT `record` FROM table_11964047_10 WHERE home = 'Los Angeles Lakers'", "raw": "SELECT `record` FROM table_11964047_10 WHERE home = 'Los Angeles Lakers'"}
+{"id": "sc-35281", "prediction": "SELECT discipline FROM table_22360_3 WHERE bronze = '0'", "raw": "SELECT discipline FROM table_22360_3 WHERE bronze = '0'"}
+{"id": "sc-32246", "prediction": "SELECT opponent FROM table_17360840_6 WHERE date = 'December 27'", "raw": "SELECT opponent FROM table_17360840_6 WHERE date = 'December 27'"}
+{"id": "sc-14276", "prediction": "SELECT rank FROM table_name_75 WHERE games = '2009 Hanoi Games'", "raw": "SELECT rank FROM table_name_75 WHERE games = '2009 Hanoi Games'"}
+{"id": "sc-38007", "prediction": "SELECT first_couple FROM table_25664518_3 WHERE fourth_couple = 'Sammy and Nat'", "raw": "SELECT first_couple FROM table_25664518_3 WHERE fourth_couple = 'Sammy and Nat'"}
+{"id": "sc-74600", "prediction": "SELECT route FROM table_name_27 WHERE winner = \"sebastien rosseler\"", "raw": "SELECT route FROM table_name_27 WHERE winner = \"sebastien rosseler\""}
+{"id": "sc-65072", "prediction": "SELECT MIN(year) FROM table_name_99 WHERE entrant = 'Rotary Watches' AND chassis = 'BRM P207' AND points > 0", "raw": "SELECT MIN(year) FROM table_name_99 WHERE entrant = 'Rotary Watches' AND chassis = 'BRM P207' AND points > 0"}
+{"id": "sc-26020", "prediction": "SELECT region FROM table_name_57 WHERE catalog = '512335'", "raw": "SELECT region FROM table_name_57 WHERE catalog = '512335'"}
+{"id": "sc-37620", "prediction": "SELECT final_score FROM table_25331766_3 WHERE attendance = '7523'", "raw": "SELECT final_score FROM table_25331766_3 WHERE attendance = '7523'"}
+{"id": "sc-34344", "prediction": "SELECT cash_fare FROM table_20803241_1 WHERE type_of_fare = 'Fort Irwin-Barstow/Victorville'", "raw": "SELECT cash_fare FROM table_20803241_1 WHERE type_of_fare = 'Fort Irwin-Barstow/Victorville'"}
+{"id": "sc-57183", "prediction": "SELECT teleplay FROM table_name_57 WHERE first_broadcast = 'April 10, 1981'", "raw": "SELECT teleplay FROM table_name_57 WHERE first_broadcast = 'April 10, 1981'"}
+{"id": "sc-74974", "prediction": "SELECT score FROM table_name_90 WHERE record = '11-10'", "raw": "SELECT score FROM table_name_90 WHERE record = '11-10'"}
+{"id": "sc-67410", "prediction": "SELECT format FROM table_name_70 WHERE catalogue__number = '886973273913' AND country = 'United Kingdom'", "raw": "SELECT format FROM table_name_70 WHERE catalogue__number = '886973273913' AND country = 'United Kingdom'"}
+{"id": "sc-17466", "prediction": "SELECT notes FROM table_name_95 WHERE cardinalatial_order_and_title = 'Cardinal-Deacon of S. Maria in Portico'", "raw": "SELECT notes FROM table_name_95 WHERE cardinalatial_order_and_title = 'Cardinal-Deacon of S. Maria in Portico'"}
+{"id": "sc-37665", "prediction": "SELECT `november_3` FROM table_25355501_2 WHERE `august_21_22` = 'august 22, 1998'", "raw": "SELECT `november_3` FROM table_25355501_2 WHERE `august_21_22` = 'august 22, 1998'"}
+{"id": "sc-64395", "prediction": "SELECT player FROM table_name_83 WHERE hometown = 'Washington, IN'", "raw": "SELECT player FROM table_name_83 WHERE hometown = 'Washington, IN'"}
+{"id": "sc-21952", "prediction": "SELECT `rank` FROM table_name_94 WHERE `time` = '1:12.40.28'", "raw": "SELECT `rank` FROM table_name_94 WHERE `time` = '1:12.40.28'"}
+{"id": "sc-26209", "prediction": "SELECT `name_as_rebuilt` FROM table_name_40 WHERE rebuilt = 'binevanagh'", "raw": "SELECT `name_as_rebuilt` FROM table_name_40 WHERE rebuilt = 'binevanagh'"}
+{"id": "sc-2848", "prediction": "SELECT COUNT(HS) FROM Player WHERE HS > 1000", "raw": "SELECT COUNT(HS) FROM Player WHERE HS > 1000"}
+{"id": "sc-23069", "prediction": "tries_for = \"losing_bonus\"", "raw": "tries_for = \"losing_bonus\""}
+{"id": "sc-59531", "prediction": "SELECT MAX(laps) FROM table_name_25 WHERE time_retired = '+1' AND constructor = 'BRM' AND grid > 1", "raw": "SELECT MAX(laps) FROM table_name_25 WHERE time_retired = '+1' AND constructor = 'BRM' AND grid > 1"}
+{"id": "sc-14001", "prediction": "SELECT away_team FROM table_name_49 WHERE venue = 'victoria park'", "raw": "SELECT away_team FROM table_name_49 WHERE venue = 'victoria park'"}
+{"id": "sc-9097", "prediction": "SELECT date FROM table_name_7 WHERE opponent = 'norway' AND results\u00b9 = '1:0'", "raw": "SELECT date FROM table_name_7 WHERE opponent = 'norway' AND results\u00b9 = '1:0'"}
+{"id": "sc-23356", "prediction": "SELECT manufacturer FROM table_name_73 WHERE time_retired = 'accident'", "raw": "SELECT manufacturer FROM table_name_73 WHERE time_retired = 'accident'"}
+{"id": "sc-54583", "prediction": "SELECT gold FROM table_name_60 WHERE silver > 8 AND (Total = (SELECT SUM(gold) FROM table_name_60)) AND rank = (SELECT MAX(rank) FROM table_name_60) AND gold > 3", "raw": "SELECT gold FROM table_name_60 WHERE silver > 8 AND (Total = (SELECT SUM(gold) FROM table_name_60)) AND rank = (SELECT MAX(rank) FROM table_name_60) AND gold > 3"}
+{"id": "sc-27506", "prediction": "SELECT SUM(format) FROM table_11222744_2 WHERE title LIKE 'callanetics%'", "raw": "SELECT SUM(format) FROM table_11222744_2 WHERE title LIKE 'callanetics%'"}
+{"id": "sc-29280", "prediction": "SELECT district FROM table_1341865_37 WHERE incumbent = 'Carl W. Rich'", "raw": "SELECT district FROM table_1341865_37 WHERE incumbent = 'Carl W. Rich'"}
+{"id": "sc-60614", "prediction": "SELECT winning_driver FROM table_name_25 WHERE race = 'dutch grand prix'", "raw": "SELECT winning_driver FROM table_name_25 WHERE race = 'dutch grand prix'"}
+{"id": "sc-18259", "prediction": "SELECT revenues FROM table_name_15 WHERE name = '\u014coka Tad\u0101sh\u012b' AND rowid = (SELECT rowid FROM table_name_15 WHERE name = '\u014coka Tad\u0101sh\u012b' AND name = '\u5927\u5ca1\u5fe0\u611b')", "raw": "SELECT revenues FROM table_name_15 WHERE name = '\u014coka Tad\u0101sh\u012b' AND rowid = (SELECT rowid FROM table_name_15 WHERE name = '\u014coka Tad\u0101sh\u012b' AND name = '\u5927\u5ca1\u5fe0\u611b')"}
+{"id": "sc-15706", "prediction": "SELECT week_1 FROM table_name_1 WHERE week_2 = 'Claudia Nathalia'", "raw": "SELECT week_1 FROM table_name_1 WHERE week_2 = 'Claudia Nathalia'"}
+{"id": "sc-73559", "prediction": "SELECT MIN(year) FROM table_name_3 WHERE result = '1st' AND extra = '4 x 400 m relay'", "raw": "SELECT MIN(year) FROM table_name_3 WHERE result = '1st' AND extra = '4 x 400 m relay'"}
+{"id": "sc-55522", "prediction": "SELECT score FROM table_name_37 WHERE game = '25'", "raw": "SELECT score FROM table_name_37 WHERE game = '25'"}
+{"id": "sc-49887", "prediction": "SELECT canada_singles FROM table_name_75 WHERE year = '1979' AND us_ac = '24'", "raw": "SELECT canada_singles FROM table_name_75 WHERE year = '1979' AND us_ac = '24'"}
+{"id": "sc-8475", "prediction": "SELECT semifinalists FROM table_30007505_1 WHERE country_territory = 'Singapore'", "raw": "SELECT semifinalists FROM table_30007505_1 WHERE country_territory = 'Singapore'"}
+{"id": "sc-11616", "prediction": "SELECT transfer_fee FROM table_name_33 WHERE ends LIKE '2010-12%' AND transfers BETWEEN '2011-01' AND '2012-12'", "raw": "SELECT transfer_fee FROM table_name_33 WHERE ends LIKE '2010-12%' AND transfers BETWEEN '2011-01' AND '2012-12'"}
+{"id": "sc-58052", "prediction": "SELECT release_date FROM table_name_15 WHERE product = 'Glassfish'", "raw": "SELECT release_date FROM table_name_15 WHERE product = 'Glassfish'"}

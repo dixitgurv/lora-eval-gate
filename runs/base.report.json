@@ -1,0 +1,4437 @@
+{
+  "model": "Qwen2.5-0.5B-Instruct (base)",
+  "n": 400,
+  "execution_accuracy": 0.4075,
+  "exact_match": 0.31,
+  "valid_sql_rate": 0.875,
+  "exact_fallback_share": 0.0,
+  "by_category": {
+    "aggregate": {
+      "n": 107,
+      "accuracy": 0.3832
+    },
+    "group_by": {
+      "n": 2,
+      "accuracy": 0.5
+    },
+    "nested": {
+      "n": 3,
+      "accuracy": 0.3333
+    },
+    "order_by": {
+      "n": 4,
+      "accuracy": 0.25
+    },
+    "simple_filter": {
+      "n": 289,
+      "accuracy": 0.4221
+    }
+  },
+  "examples": [
+    {
+      "id": "sc-33658",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-41391",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-2505",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-26599",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-70170",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-35971",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "no such column: Syrian"
+    },
+    {
+      "id": "sc-43158",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-8738",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-20138",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-60218",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-31058",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-43305",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-43855",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-45739",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-20082",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-25082",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-32726",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-51022",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-26335",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-57683",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-5216",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-40637",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-39503",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-49854",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-33054",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-38710",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-60664",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-40596",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-45444",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-44174",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-54922",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "no such column: date_column"
+    },
+    {
+      "id": "sc-40845",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-29192",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-17772",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-30491",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-64345",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-77542",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-43156",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-48740",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-76193",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-61775",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-5727",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-58574",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-59118",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-73794",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-67847",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"year__ceremony_\": syntax error"
+    },
+    {
+      "id": "sc-71967",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-59332",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-17013",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-38700",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-52678",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"Tie_no\": syntax error"
+    },
+    {
+      "id": "sc-3959",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-5274",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-42423",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-73760",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"time__eest_\": syntax error"
+    },
+    {
+      "id": "sc-62936",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-25826",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-34544",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-49435",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-10134",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-16537",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-19292",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-40",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-60711",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-10216",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-61245",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-969",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-68457",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-55770",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-30324",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-4061",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-33698",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-54299",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-38180",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-52116",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-74655",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-56310",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-15092",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-886",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-69437",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-52406",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"Meara\": syntax error"
+    },
+    {
+      "id": "sc-40540",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-8484",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-40564",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-55334",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-30618",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-17136",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-67041",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"american\": syntax error"
+    },
+    {
+      "id": "sc-24566",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-63147",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-42678",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-32995",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-72981",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-76557",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": "near \"take_office\": syntax error"
+    },
+    {
+      "id": "sc-35211",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-42055",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-53730",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-3171",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "order_by"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-40176",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-49313",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-25076",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"time_retired\": syntax error"
+    },
+    {
+      "id": "sc-36605",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"outcome\": syntax error"
+    },
+    {
+      "id": "sc-65608",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-65503",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-26989",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": "near \"=\": syntax error"
+    },
+    {
+      "id": "sc-59215",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-36638",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-45676",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-35631",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-18604",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-7733",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-14753",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-71143",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-37744",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-42691",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-3424",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-75227",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-64339",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-9477",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-30024",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-26824",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-39793",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-33318",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-10016",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-38438",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-13933",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-25371",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-37146",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-27698",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-44479",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-74380",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-30291",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-28661",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-34432",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-5500",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-38647",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-49619",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "no such table: television_service"
+    },
+    {
+      "id": "sc-15700",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-62931",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": "no such column: episode_number"
+    },
+    {
+      "id": "sc-23799",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"day_3\": syntax error"
+    },
+    {
+      "id": "sc-1055",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-59833",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-67084",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-29508",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-31829",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-39946",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-38294",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-5732",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-28214",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-4335",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-14765",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"engine_type\": syntax error"
+    },
+    {
+      "id": "sc-65574",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-14113",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-20248",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"surface\": syntax error"
+    },
+    {
+      "id": "sc-4671",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-31323",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-70591",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"home_team\": syntax error"
+    },
+    {
+      "id": "sc-66899",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-7085",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-27301",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-58917",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-58751",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-20809",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-64196",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-40133",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-45060",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-71725",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"result\": syntax error"
+    },
+    {
+      "id": "sc-73866",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-14614",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-5421",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-40518",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-12894",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-53230",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-46263",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"outcome\": syntax error"
+    },
+    {
+      "id": "sc-23738",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-26785",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"year\": syntax error"
+    },
+    {
+      "id": "sc-17184",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-30992",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-31596",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-14423",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-20545",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-64580",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-43748",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-66620",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-27480",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-19404",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-53850",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-18391",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-59881",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-16518",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-2257",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate",
+        "nested"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-5409",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-50745",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"home_team\": syntax error"
+    },
+    {
+      "id": "sc-16484",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "no such column: T1.birth"
+    },
+    {
+      "id": "sc-31638",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-75399",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-41040",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-59374",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-18789",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-42144",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-2699",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "order_by"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-11623",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-38454",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-34892",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"winning_time__km_rate_\": syntax error"
+    },
+    {
+      "id": "sc-9342",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-61034",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-75331",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-8785",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-64800",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-35138",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-9481",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-66470",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-75600",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-46240",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-12406",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"surface\": syntax error"
+    },
+    {
+      "id": "sc-68443",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-30868",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-53167",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"win_percentage\": syntax error"
+    },
+    {
+      "id": "sc-23661",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-55839",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-51408",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-54845",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-16975",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-1686",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-27273",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-46296",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-8692",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-56131",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-68754",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-8587",
+      "correct": false,
+      "valid": false,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"s\": syntax error"
+    },
+    {
+      "id": "sc-72942",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "no such function: YEAR"
+    },
+    {
+      "id": "sc-72137",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-60534",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-52085",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-36964",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "no such table: teams"
+    },
+    {
+      "id": "sc-8578",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-74738",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-32068",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-13162",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-17131",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-28401",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-27567",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-28946",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-9072",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"name\": syntax error"
+    },
+    {
+      "id": "sc-60768",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-33284",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-36748",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-22437",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"result\": syntax error"
+    },
+    {
+      "id": "sc-48247",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-43783",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-58745",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-39040",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "no such column: opponent"
+    },
+    {
+      "id": "sc-50249",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "no such column: team"
+    },
+    {
+      "id": "sc-59415",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-10898",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-56930",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-276",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate",
+        "group_by"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-1359",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-63540",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-64198",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-51122",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-46743",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-31591",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-34745",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-60877",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"score\": syntax error"
+    },
+    {
+      "id": "sc-10165",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-1240",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "order_by"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-40607",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-35764",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-75707",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-16438",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-70530",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-46738",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-20802",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-41776",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": "no such column: m"
+    },
+    {
+      "id": "sc-2718",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-70045",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-22864",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-54037",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-17695",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-47372",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-65798",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-49729",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-38997",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"wins\": syntax error"
+    },
+    {
+      "id": "sc-16826",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-2070",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "nested"
+      ],
+      "error": "near \"SELECT\": syntax error"
+    },
+    {
+      "id": "sc-70393",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-7524",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-23074",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-18518",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-48921",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-63032",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-41852",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-21730",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-30174",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-25284",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-42774",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-33736",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-62364",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"home_team\": syntax error"
+    },
+    {
+      "id": "sc-71130",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-27216",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-43028",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-62640",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-29957",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-45747",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-24076",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-60195",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-62778",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-41490",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-60566",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-32066",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-46289",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"date\": syntax error"
+    },
+    {
+      "id": "sc-19352",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-27366",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-20520",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-53610",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-19986",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-29868",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"tries_against\": syntax error"
+    },
+    {
+      "id": "sc-35301",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-49758",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-4120",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-66171",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "no such column: orebro"
+    },
+    {
+      "id": "sc-71126",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-49617",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-49929",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-17115",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-15050",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"time\": syntax error"
+    },
+    {
+      "id": "sc-57687",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-69917",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-11887",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"MATCH\": syntax error"
+    },
+    {
+      "id": "sc-472",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-19903",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-70937",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-30123",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-20935",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-14285",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-67689",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"home_team\": syntax error"
+    },
+    {
+      "id": "sc-35354",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "no such table: countries"
+    },
+    {
+      "id": "sc-61777",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-27809",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-9773",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-4325",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate",
+        "group_by",
+        "order_by"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-39127",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-54198",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-63283",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-65910",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-72866",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-17780",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-35140",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-39594",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-73897",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-15596",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-45315",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-27660",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "no such column: Year"
+    },
+    {
+      "id": "sc-6946",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-2086",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-6823",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-35366",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-25733",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"time\": syntax error"
+    },
+    {
+      "id": "sc-6340",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-36365",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-65111",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-4382",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate",
+        "nested"
+      ],
+      "error": "near \"ALL\": syntax error"
+    },
+    {
+      "id": "sc-4192",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-28243",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-35281",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-32246",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-14276",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-38007",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-74600",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-65072",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-26020",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-37620",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-34344",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-57183",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-74974",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-67410",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-17466",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-37665",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-64395",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-21952",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-26209",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-2848",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-23069",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "near \"tries_for\": syntax error"
+    },
+    {
+      "id": "sc-59531",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-14001",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-9097",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-23356",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-54583",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": "no such column: Total"
+    },
+    {
+      "id": "sc-27506",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-29280",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-60614",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-18259",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-15706",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-73559",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "aggregate"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-55522",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-49887",
+      "correct": true,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-8475",
+      "correct": true,
+      "valid": true,
+      "exact": true,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    },
+    {
+      "id": "sc-11616",
+      "correct": false,
+      "valid": false,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": "no such column: transfers"
+    },
+    {
+      "id": "sc-58052",
+      "correct": false,
+      "valid": true,
+      "exact": false,
+      "method": "execution",
+      "categories": [
+        "simple_filter"
+      ],
+      "error": null
+    }
+  ]
+}
